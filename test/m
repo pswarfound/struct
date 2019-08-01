@@ -1,0 +1,603 @@
+check sub
+struct rte_device {
+ 
+struct { struct 
+rte_device 
+*tqe_next; struct 
+rte_device 
+* *tqe_prev; } 
+                        next;
+ const char *name;
+ const struct rte_driver *driver;
+ const struct rte_bus *bus;
+ int numa_node;
+ struct rte_devargs *devargs;
+};
+
+
+    [0x0] next
+    [0x10] name
+    [0x18] driver
+    [0x20] bus
+    [0x28] numa_node
+    [0x30] devargs
+
+struct rte_eth_rxconf {
+ struct rte_eth_thresh rx_thresh;
+ uint16_t rx_free_thresh;
+ uint8_t rx_drop_en;
+ uint8_t rx_deferred_start;
+ uint64_t offloads;
+};
+
+
+    [0x0] rx_thresh
+    [0x4] rx_free_thresh
+    [0x6] rx_drop_en
+    [0x7] rx_deferred_start
+    [0x8] offloads
+
+struct rte_eth_txconf {
+ struct rte_eth_thresh tx_thresh;
+ uint16_t tx_rs_thresh;
+ uint16_t tx_free_thresh;
+ uint8_t tx_deferred_start;
+ uint64_t offloads;
+};
+
+
+    [0x0] tx_thresh
+    [0x4] tx_rs_thresh
+    [0x6] tx_free_thresh
+    [0x8] tx_deferred_start
+    [0x10] offloads
+
+struct rte_eth_desc_lim {
+ uint16_t nb_max;
+ uint16_t nb_min;
+ uint16_t nb_align;
+ uint16_t nb_seg_max;
+ uint16_t nb_mtu_seg_max;
+};
+
+
+    [0x0] nb_max
+    [0x2] nb_min
+    [0x4] nb_align
+    [0x6] nb_seg_max
+    [0x8] nb_mtu_seg_max
+
+struct rte_eth_desc_lim {
+ uint16_t nb_max;
+ uint16_t nb_min;
+ uint16_t nb_align;
+ uint16_t nb_seg_max;
+ uint16_t nb_mtu_seg_max;
+};
+
+
+    [0x0] nb_max
+    [0x2] nb_min
+    [0x4] nb_align
+    [0x6] nb_seg_max
+    [0x8] nb_mtu_seg_max
+
+struct rte_eth_dev_portconf {
+ uint16_t burst_size;
+ uint16_t ring_size;
+ uint16_t nb_queues;
+};
+
+
+    [0x0] burst_size
+    [0x2] ring_size
+    [0x4] nb_queues
+
+struct rte_eth_dev_portconf {
+ uint16_t burst_size;
+ uint16_t ring_size;
+ uint16_t nb_queues;
+};
+
+
+    [0x0] burst_size
+    [0x2] ring_size
+    [0x4] nb_queues
+
+struct rte_eth_switch_info {
+ const char *name;
+ uint16_t domain_id;
+ uint16_t port_id;
+};
+
+
+    [0x0] name
+    [0x8] domain_id
+    [0xa] port_id
+
+[
+    {
+        "off": "[0x0]", 
+        "isp": true, 
+        "type": "struct rte_device", 
+        "name": "device", 
+        "sub": [
+            {
+                "off": "[0x0]", 
+                "isp": false, 
+                "type": "} \n", 
+                "name": "next", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x10]", 
+                "isp": true, 
+                "type": "const char", 
+                "name": "name", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x18]", 
+                "isp": true, 
+                "type": "const struct rte_driver", 
+                "name": "driver", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x20]", 
+                "isp": true, 
+                "type": "const struct rte_bus", 
+                "name": "bus", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x28]", 
+                "isp": false, 
+                "type": "int", 
+                "name": "numa_node", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x30]", 
+                "isp": true, 
+                "type": "struct rte_devargs", 
+                "name": "devargs", 
+                "sub": []
+            }
+        ]
+    }, 
+    {
+        "off": "[0x8]", 
+        "isp": true, 
+        "type": "const char", 
+        "name": "driver_name", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x10]", 
+        "isp": false, 
+        "type": "unsigned int", 
+        "name": "if_index", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x18]", 
+        "isp": true, 
+        "type": "const uint32_t", 
+        "name": "dev_flags", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x20]", 
+        "isp": false, 
+        "type": "uint32_t", 
+        "name": "min_rx_bufsize", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x24]", 
+        "isp": false, 
+        "type": "uint32_t", 
+        "name": "max_rx_pktlen", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x28]", 
+        "isp": false, 
+        "type": "uint16_t", 
+        "name": "max_rx_queues", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x2a]", 
+        "isp": false, 
+        "type": "uint16_t", 
+        "name": "max_tx_queues", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x2c]", 
+        "isp": false, 
+        "type": "uint32_t", 
+        "name": "max_mac_addrs", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x30]", 
+        "isp": false, 
+        "type": "uint32_t", 
+        "name": "max_hash_mac_addrs", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x34]", 
+        "isp": false, 
+        "type": "uint16_t", 
+        "name": "max_vfs", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x36]", 
+        "isp": false, 
+        "type": "uint16_t", 
+        "name": "max_vmdq_pools", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x38]", 
+        "isp": false, 
+        "type": "uint64_t", 
+        "name": "rx_offload_capa", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x40]", 
+        "isp": false, 
+        "type": "uint64_t", 
+        "name": "tx_offload_capa", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x48]", 
+        "isp": false, 
+        "type": "uint64_t", 
+        "name": "rx_queue_offload_capa", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x50]", 
+        "isp": false, 
+        "type": "uint64_t", 
+        "name": "tx_queue_offload_capa", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x58]", 
+        "isp": false, 
+        "type": "uint16_t", 
+        "name": "reta_size", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x5a]", 
+        "isp": false, 
+        "type": "uint8_t", 
+        "name": "hash_key_size", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x60]", 
+        "isp": false, 
+        "type": "uint64_t", 
+        "name": "flow_type_rss_offloads", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x68]", 
+        "isp": false, 
+        "type": "struct rte_eth_rxconf", 
+        "name": "default_rxconf", 
+        "sub": [
+            {
+                "off": "[0x0]", 
+                "isp": false, 
+                "type": "struct rte_eth_thresh", 
+                "name": "rx_thresh", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x4]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "rx_free_thresh", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x6]", 
+                "isp": false, 
+                "type": "uint8_t", 
+                "name": "rx_drop_en", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x7]", 
+                "isp": false, 
+                "type": "uint8_t", 
+                "name": "rx_deferred_start", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x8]", 
+                "isp": false, 
+                "type": "uint64_t", 
+                "name": "offloads", 
+                "sub": []
+            }
+        ]
+    }, 
+    {
+        "off": "[0x78]", 
+        "isp": false, 
+        "type": "struct rte_eth_txconf", 
+        "name": "default_txconf", 
+        "sub": [
+            {
+                "off": "[0x0]", 
+                "isp": false, 
+                "type": "struct rte_eth_thresh", 
+                "name": "tx_thresh", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x4]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "tx_rs_thresh", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x6]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "tx_free_thresh", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x8]", 
+                "isp": false, 
+                "type": "uint8_t", 
+                "name": "tx_deferred_start", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x10]", 
+                "isp": false, 
+                "type": "uint64_t", 
+                "name": "offloads", 
+                "sub": []
+            }
+        ]
+    }, 
+    {
+        "off": "[0x90]", 
+        "isp": false, 
+        "type": "uint16_t", 
+        "name": "vmdq_queue_base", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x92]", 
+        "isp": false, 
+        "type": "uint16_t", 
+        "name": "vmdq_queue_num", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x94]", 
+        "isp": false, 
+        "type": "uint16_t", 
+        "name": "vmdq_pool_base", 
+        "sub": []
+    }, 
+    {
+        "off": "[0x96]", 
+        "isp": false, 
+        "type": "struct rte_eth_desc_lim", 
+        "name": "rx_desc_lim", 
+        "sub": [
+            {
+                "off": "[0x0]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "nb_max", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x2]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "nb_min", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x4]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "nb_align", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x6]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "nb_seg_max", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x8]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "nb_mtu_seg_max", 
+                "sub": []
+            }
+        ]
+    }, 
+    {
+        "off": "[0xa0]", 
+        "isp": false, 
+        "type": "struct rte_eth_desc_lim", 
+        "name": "tx_desc_lim", 
+        "sub": [
+            {
+                "off": "[0x0]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "nb_max", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x2]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "nb_min", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x4]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "nb_align", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x6]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "nb_seg_max", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x8]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "nb_mtu_seg_max", 
+                "sub": []
+            }
+        ]
+    }, 
+    {
+        "off": "[0xac]", 
+        "isp": false, 
+        "type": "uint32_t", 
+        "name": "speed_capa", 
+        "sub": []
+    }, 
+    {
+        "off": "[0xb0]", 
+        "isp": false, 
+        "type": "uint16_t", 
+        "name": "nb_rx_queues", 
+        "sub": []
+    }, 
+    {
+        "off": "[0xb2]", 
+        "isp": false, 
+        "type": "uint16_t", 
+        "name": "nb_tx_queues", 
+        "sub": []
+    }, 
+    {
+        "off": "[0xb4]", 
+        "isp": false, 
+        "type": "struct rte_eth_dev_portconf", 
+        "name": "default_rxportconf", 
+        "sub": [
+            {
+                "off": "[0x0]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "burst_size", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x2]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "ring_size", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x4]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "nb_queues", 
+                "sub": []
+            }
+        ]
+    }, 
+    {
+        "off": "[0xba]", 
+        "isp": false, 
+        "type": "struct rte_eth_dev_portconf", 
+        "name": "default_txportconf", 
+        "sub": [
+            {
+                "off": "[0x0]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "burst_size", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x2]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "ring_size", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x4]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "nb_queues", 
+                "sub": []
+            }
+        ]
+    }, 
+    {
+        "off": "[0xc0]", 
+        "isp": false, 
+        "type": "uint64_t", 
+        "name": "dev_capa", 
+        "sub": []
+    }, 
+    {
+        "off": "[0xc8]", 
+        "isp": false, 
+        "type": "struct rte_eth_switch_info", 
+        "name": "switch_info", 
+        "sub": [
+            {
+                "off": "[0x0]", 
+                "isp": true, 
+                "type": "const char", 
+                "name": "name", 
+                "sub": []
+            }, 
+            {
+                "off": "[0x8]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "domain_id", 
+                "sub": []
+            }, 
+            {
+                "off": "[0xa]", 
+                "isp": false, 
+                "type": "uint16_t", 
+                "name": "port_id", 
+                "sub": []
+            }
+        ]
+    }
+]

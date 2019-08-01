@@ -1,0 +1,1 @@
+-export-dynamic -L/opt/project/struct/git/struct/test/build/lib -L/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/lib
