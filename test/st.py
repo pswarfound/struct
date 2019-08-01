@@ -40,7 +40,7 @@ basic_type = [  "int8_t", "int16_t", "int32_t", "int64_t",
                 "uint8_t", "uint16_t", "uint32_t", "uint64_t",
                 "char", "short", "int", "long", "long long",
                 "unsigned char", "unsigned short", "unsigned int", "unsigned long", "unsigned long long",
-                ]
+                "void", "size_t"]
 const_basic_type = []
 
 def gettp(st, mbr):
@@ -52,30 +52,19 @@ def gettp(st, mbr):
 
     return tp
 
-if __name__ == "__main__":
-    for tp in basic_type:
-        const_basic_type.append("const " + tp)
-
-    fp = "./e"
-#    st_name = "struct rte_mempool"
-    st_name = "struct rte_eth_dev_info"
-    codes = ""
-    with open(fp, "r") as f:
-        codes = f.readlines()
-        f.close()
-    
+def expand_start(st_name, out_list):
     st = locate_struct_def(codes, st_name)
-    #print st
-    cmd = 'echo "offsets-of \\\"' + st_name + '\\\"\" | gdb a.out'
     
+    cmd = 'echo "offsets-of \\\"' + st_name + '\\\"\" | gdb a.out'
+    print cmd
     p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
     (output, err) = p.communicate()
     p_status = p.wait()
-    #print "Command output : ", output
     start = output.find("@@@@start")
     end = output.find("@@@@end")
     info = output[start + len("@@@@start"):end]
-    
+    print info
+    print st
     info_list_tmp = info.split("\n")
     info_list = []
     for inf in info_list_tmp:
@@ -83,14 +72,13 @@ if __name__ == "__main__":
         if inf == "":
             continue
         info_list.append(inf)
-    
-    inf_list = []
-    
+#    print info_list
     for info in info_list:
         ele = info.split(" ")
         inf = {
             "type": "",
             "isp":-1,
+            "isc":-1,
             "off": ele[0],
             "name": ele[1],
             "sub":[]
@@ -98,48 +86,36 @@ if __name__ == "__main__":
         inf["type"] = gettp(st, ele[1])
         inf["isp"] = inf["type"].find("*") != -1
         inf["type"] = inf["type"].strip("*").rstrip(" ")
-        inf_list.append(inf)
-
-#    print inf_list
-    print "check sub"
-    for inf in inf_list:
+        sc = inf['type'].split(" ")
+        
+        if len(sc) > 2 :
+            if sc[0] == "const":
+                inf["type"] = inf["type"][6:]
+                inf["isc"] = 1
+        out_list.append(inf)
+    print out_list
+    for inf in out_list:
+        print inf
         if inf['type'] not in basic_type and inf['type'] not in const_basic_type:
-            sst = locate_struct_def(codes, inf['type'])
-
-            print sst
-            cmd = 'echo "offsets-of \\\"' + inf['type'] + '\\\"\" | gdb a.out'
-            
-            p = subprocess.Popen(cmd, stdout=subprocess.PIPE, shell=True)
-            (output, err) = p.communicate()
-            p_status = p.wait()
-            #print "Command output : ", output
-            start = output.find("@@@@start")
-            end = output.find("@@@@end")
-            info = output[start + len("@@@@start"):end]
-            print info
-            s_list_tmp = info.split("\n")
-            info_list = []
-            for info in s_list_tmp:
-                info = info.lstrip(" ")
-                if info == "":
-                    continue
-                info_list.append(info)
-            
-            s_list = inf["sub"]
-            
-            for info in info_list:
-                ele = info.split(" ")
-                ii = {
-                    "type": "",
-                    "isp":-1,
-                    "off": ele[0],
-                    "name": ele[1],
-                    "sub":[]
-                }
-                ii["type"] = gettp(sst, ele[1])
-                ii["isp"] = ii["type"].find("*") != -1
-                ii["type"] = ii["type"].strip("*").rstrip(" ")
-                s_list.append(ii)
+            if inf['type'] == "":
+                continue
+            print "expand"
+            expand_start(inf['type'], inf['sub'])
         else:
             pass
-    print(json.dumps(inf_list, indent=4))
+        print inf
+        
+if __name__ == "__main__":
+    for tp in basic_type:
+        const_basic_type.append("const " + tp)
+
+    fp = "./e"
+#    st_name = "struct rte_mempool"
+    st_name = "struct rte_mempool"
+    codes = ""
+    with open(fp, "r") as f:
+        codes = f.readlines()
+        f.close()
+    root = []
+    expand_start(st_name, root)
+    print(json.dumps(root, indent=4))
