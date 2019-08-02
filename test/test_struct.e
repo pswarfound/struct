@@ -1,13 +1,13 @@
-# 1 "test.c"
+# 1 "test_struct.c"
 # 1 "<built-in>"
 # 1 "<command-line>"
 # 1 "/usr/include/stdc-predef.h" 1 3 4
 # 1 "<command-line>" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_config.h" 1
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_config.h" 1
 # 1 "<command-line>" 2
-# 1 "test.c"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 1
-# 144 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1 "test_struct.c"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 1
+# 144 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h" 1 3 4
 # 9 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h" 3 4
 # 1 "/usr/include/stdint.h" 1 3 4
@@ -214,12 +214,12 @@ typedef unsigned long int uintptr_t;
 typedef __intmax_t intmax_t;
 typedef __uintmax_t uintmax_t;
 # 10 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h" 2 3 4
-# 145 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
+# 145 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
 
 
 
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_compat.h" 1
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_compat.h" 1
 
 
 
@@ -227,8 +227,8 @@ typedef __uintmax_t uintmax_t;
 
 
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h" 1
-# 20 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h" 1
+# 20 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 # 1 "/usr/include/stdlib.h" 1 3 4
 # 25 "/usr/include/stdlib.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
@@ -1615,7 +1615,7 @@ extern int getloadavg (double __loadavg[], int __nelem)
 # 1017 "/usr/include/stdlib.h" 2 3 4
 # 1026 "/usr/include/stdlib.h" 3 4
 
-# 21 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h" 2
+# 21 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h" 2
 # 1 "/usr/include/ctype.h" 1 3 4
 # 28 "/usr/include/ctype.h" 3 4
 
@@ -1712,7 +1712,7 @@ extern int __toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __l
 extern int toupper_l (int __c, locale_t __l) __attribute__ ((__nothrow__ , __leaf__));
 # 327 "/usr/include/ctype.h" 3 4
 
-# 22 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h" 2
+# 22 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h" 2
 # 1 "/usr/include/errno.h" 1 3 4
 # 28 "/usr/include/errno.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/errno.h" 1 3 4
@@ -1759,7 +1759,7 @@ typedef int error_t;
 
 
 
-# 23 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h" 2
+# 23 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h" 2
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h" 1 3 4
 # 34 "/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h" 3 4
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h" 1 3 4
@@ -1800,23 +1800,23 @@ typedef int error_t;
 # 195 "/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h" 2 3 4
 # 8 "/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h" 2 3 4
 # 35 "/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h" 2 3 4
-# 24 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h" 2
+# 24 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h" 2
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_config.h" 1
-# 26 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h" 2
-# 53 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_config.h" 1
+# 26 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h" 2
+# 53 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 
-# 53 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 53 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 typedef uint64_t unaligned_uint64_t;
 typedef uint32_t unaligned_uint32_t;
 typedef uint16_t unaligned_uint16_t;
-# 262 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 262 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 static inline int
 rte_is_aligned(void *ptr, unsigned align)
 {
  return ((__typeof__((__typeof__(ptr))((void*)((uintptr_t)(ptr) + ((align) - 1)))))(__typeof__((uintptr_t)(__typeof__(ptr))((void*)((uintptr_t)(ptr) + ((align) - 1)))))(((uintptr_t)(__typeof__(ptr))((void*)((uintptr_t)(ptr) + ((align) - 1)))) & (~((__typeof__((uintptr_t)(__typeof__(ptr))((void*)((uintptr_t)(ptr) + ((align) - 1)))))((align) - 1))))) == ptr;
 }
-# 285 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 285 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 static inline uint32_t
 rte_combine32ms1b(register uint32_t x)
 {
@@ -1828,7 +1828,7 @@ rte_combine32ms1b(register uint32_t x)
 
  return x;
 }
-# 307 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 307 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 static inline uint64_t
 rte_combine64ms1b(register uint64_t v)
 {
@@ -1841,13 +1841,13 @@ rte_combine64ms1b(register uint64_t v)
 
  return v;
 }
-# 333 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 333 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 static inline int
 rte_is_power_of_2(uint32_t n)
 {
  return n && !(n & (n - 1));
 }
-# 348 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 348 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 static inline uint32_t
 rte_align32pow2(uint32_t x)
 {
@@ -1856,7 +1856,7 @@ rte_align32pow2(uint32_t x)
 
  return x + 1;
 }
-# 366 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 366 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 static inline uint32_t
 rte_align32prevpow2(uint32_t x)
 {
@@ -1864,7 +1864,7 @@ rte_align32prevpow2(uint32_t x)
 
  return x - (x >> 1);
 }
-# 383 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 383 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 static inline uint64_t
 rte_align64pow2(uint64_t v)
 {
@@ -1873,7 +1873,7 @@ rte_align64pow2(uint64_t v)
 
  return v + 1;
 }
-# 401 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 401 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 static inline uint64_t
 rte_align64prevpow2(uint64_t v)
 {
@@ -1881,23 +1881,13 @@ rte_align64prevpow2(uint64_t v)
 
  return v - (v >> 1);
 }
-# 444 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 444 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 static inline uint32_t
 rte_bsf32(uint32_t v)
 {
  return (uint32_t)__builtin_ctz(v);
 }
-# 464 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
-static inline int
-rte_bsf32_safe(uint64_t v, uint32_t *pos)
-{
- if (v == 0)
-  return 0;
-
- *pos = rte_bsf32(v);
- return 1;
-}
-# 482 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 458 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 static inline uint32_t
 rte_log2_u32(uint32_t v)
 {
@@ -1906,45 +1896,23 @@ rte_log2_u32(uint32_t v)
  v = rte_align32pow2(v);
  return rte_bsf32(v);
 }
-# 503 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 479 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 static inline int
 rte_fls_u32(uint32_t x)
 {
  return (x == 0) ? 0 : 32 - __builtin_clz(x);
 }
-# 520 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
-static inline int
-rte_bsf64(uint64_t v)
-{
- return (uint32_t)__builtin_ctzll(v);
-}
-# 540 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 499 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 static inline int
 rte_bsf64_safe(uint64_t v, uint32_t *pos)
 {
  if (v == 0)
   return 0;
 
- *pos = rte_bsf64(v);
+ *pos = __builtin_ctzll(v);
  return 1;
 }
-# 562 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
-static inline int
-rte_fls_u64(uint64_t x)
-{
- return (x == 0) ? 0 : 64 - __builtin_clzll(x);
-}
-# 576 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
-static inline uint32_t
-rte_log2_u64(uint64_t v)
-{
- if (v == 0)
-  return 0;
- v = rte_align64pow2(v);
-
- return rte_bsf64(v);
-}
-# 648 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 571 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 static inline uint64_t
 rte_str_to_size(const char *str)
 {
@@ -1952,28 +1920,28 @@ rte_str_to_size(const char *str)
  unsigned long long size;
 
  while (
-# 654 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h" 3 4
+# 577 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h" 3 4
        ((*__ctype_b_loc ())[(int) ((
-# 654 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 577 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
        (int)*str
-# 654 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h" 3 4
+# 577 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h" 3 4
        ))] & (unsigned short int) _ISspace)
-# 654 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 577 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
                          )
   str++;
  if (*str == '-')
   return 0;
 
  
-# 659 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h" 3 4
+# 582 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h" 3 4
 (*__errno_location ()) 
-# 659 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 582 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
       = 0;
  size = strtoull(str, &endptr, 0);
  if (
-# 661 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h" 3 4
+# 584 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h" 3 4
     (*__errno_location ())
-# 661 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 584 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
          )
   return 0;
 
@@ -1989,15 +1957,15 @@ rte_str_to_size(const char *str)
  }
  return size;
 }
-# 690 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h"
+# 613 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h"
 void
 rte_exit(int exit_code, const char *format, ...)
  __attribute__((noreturn))
  __attribute__((format(printf, 2, 3)));
-# 9 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_compat.h" 2
-# 150 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h" 1
-# 21 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 9 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_compat.h" 2
+# 150 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h" 1
+# 21 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 # 1 "/usr/include/stdio.h" 1 3 4
 # 27 "/usr/include/stdio.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
@@ -2738,18 +2706,17 @@ extern int ftrylockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__)
 extern void funlockfile (FILE *__stream) __attribute__ ((__nothrow__ , __leaf__));
 # 868 "/usr/include/stdio.h" 3 4
 
-# 22 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h" 2
+# 22 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h" 2
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h" 1 3 4
-# 23 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h" 2
+# 23 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h" 2
 # 1 "/usr/include/x86_64-linux-gnu/sys/queue.h" 1 3 4
-# 24 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h" 2
+# 24 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h" 2
 
 
 
 
 
-
-# 29 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 28 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 struct rte_log_dynamic_type;
 
 
@@ -2763,9 +2730,9 @@ struct rte_logs {
 
 
 extern struct rte_logs rte_logs;
-# 102 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 101 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 int rte_openlog_stream(FILE *f);
-# 113 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 112 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 void rte_log_set_global_level(uint32_t level);
 
 
@@ -2775,26 +2742,25 @@ void rte_log_set_global_level(uint32_t level);
 
 
 uint32_t rte_log_get_global_level(void);
-# 131 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 130 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 int rte_log_get_level(uint32_t logtype);
-# 143 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 142 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 int rte_log_set_level_pattern(const char *pattern, uint32_t level);
-# 155 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 154 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 int rte_log_set_level_regexp(const char *regex, uint32_t level);
-# 167 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 166 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 int rte_log_set_level(uint32_t logtype, uint32_t level);
-# 181 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 180 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 int rte_log_cur_msg_loglevel(void);
-# 195 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 194 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 int rte_log_cur_msg_logtype(void);
-# 209 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 208 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 int rte_log_register(const char *name);
-# 230 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
-__attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
+# 229 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 int rte_log_register_type_and_pick_level(const char *name, uint32_t level_def);
-# 241 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 239 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 void rte_log_dump(FILE *f);
-# 266 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 264 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 int rte_log(uint32_t level, uint32_t logtype, const char *format, ...)
 
 
@@ -2802,19 +2768,19 @@ int rte_log(uint32_t level, uint32_t logtype, const char *format, ...)
 
 
  __attribute__((format(printf, 3, 4)));
-# 300 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h"
+# 298 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h"
 int rte_vlog(uint32_t level, uint32_t logtype, const char *format, va_list ap)
  __attribute__((format(printf,3,0)));
-# 151 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_interrupts.h" 1
-# 22 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_interrupts.h"
+# 151 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_interrupts.h" 1
+# 22 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_interrupts.h"
 struct rte_intr_handle;
 
 
 typedef void (*rte_intr_callback_fn)(void *cb_arg);
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h" 1
-# 27 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h" 1
+# 27 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
 enum rte_intr_handle_type {
  RTE_INTR_HANDLE_UNKNOWN = 0,
  RTE_INTR_HANDLE_UIO,
@@ -2873,11 +2839,11 @@ struct rte_intr_handle {
 
  int *intr_vec;
 };
-# 104 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
+# 104 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
 int
 rte_epoll_wait(int epfd, struct rte_epoll_event *events,
         int maxevents, int timeout);
-# 125 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
+# 125 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
 int
 rte_epoll_ctl(int epfd, int op, int fd,
        struct rte_epoll_event *event);
@@ -2890,7 +2856,7 @@ rte_epoll_ctl(int epfd, int op, int fd,
 
 int
 rte_intr_tls_epfd(void);
-# 154 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
+# 154 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
 int
 rte_intr_rx_ctl(struct rte_intr_handle *intr_handle,
   int epfd, int op, unsigned int vec, void *data);
@@ -2903,10 +2869,10 @@ rte_intr_rx_ctl(struct rte_intr_handle *intr_handle,
 
 void
 rte_intr_free_epoll_fd(struct rte_intr_handle *intr_handle);
-# 181 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
+# 181 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
 int
 rte_intr_efd_enable(struct rte_intr_handle *intr_handle, uint32_t nb_efd);
-# 191 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
+# 191 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
 void
 rte_intr_efd_disable(struct rte_intr_handle *intr_handle);
 
@@ -2918,26 +2884,26 @@ rte_intr_efd_disable(struct rte_intr_handle *intr_handle);
 
 int
 rte_intr_dp_is_en(struct rte_intr_handle *intr_handle);
-# 210 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
+# 210 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
 int
 rte_intr_allow_others(struct rte_intr_handle *intr_handle);
-# 220 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
+# 220 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal_interrupts.h"
 int
 rte_intr_cap_multiple(struct rte_intr_handle *intr_handle);
-# 28 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_interrupts.h" 2
-# 43 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_interrupts.h"
+# 28 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_interrupts.h" 2
+# 43 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_interrupts.h"
 int rte_intr_callback_register(const struct rte_intr_handle *intr_handle,
     rte_intr_callback_fn cb, void *cb_arg);
-# 61 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_interrupts.h"
+# 61 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_interrupts.h"
 int rte_intr_callback_unregister(const struct rte_intr_handle *intr_handle,
     rte_intr_callback_fn cb, void *cb_arg);
-# 74 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_interrupts.h"
+# 74 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_interrupts.h"
 int rte_intr_enable(const struct rte_intr_handle *intr_handle);
-# 86 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_interrupts.h"
+# 86 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_interrupts.h"
 int rte_intr_disable(const struct rte_intr_handle *intr_handle);
-# 152 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 1
-# 30 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 152 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 1
+# 30 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 enum rte_dev_event_type {
  RTE_DEV_EVENT_ADD,
  RTE_DEV_EVENT_REMOVE,
@@ -2961,65 +2927,65 @@ rte_pmd_debug_trace(const char *func_name, const char *fmt, ...)
  va_list ap;
 
  
-# 52 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 52 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
 __builtin_va_start(
-# 52 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 52 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 ap
-# 52 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 52 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
 ,
-# 52 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 52 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 fmt
-# 52 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 52 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
 )
-# 52 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 52 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
                  ;
 
  {
   char buffer[vsnprintf(
-# 55 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 55 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
                        ((void *)0)
-# 55 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 55 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
                            , 0, fmt, ap) + 1];
 
   
-# 57 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 57 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
  __builtin_va_end(
-# 57 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 57 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
  ap
-# 57 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 57 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
  )
-# 57 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 57 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
            ;
 
   
-# 59 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 59 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
  __builtin_va_start(
-# 59 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 59 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
  ap
-# 59 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 59 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
  ,
-# 59 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 59 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
  fmt
-# 59 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 59 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
  )
-# 59 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 59 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
                   ;
   vsnprintf(buffer, sizeof(buffer), fmt, ap);
   
-# 61 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 61 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
  __builtin_va_end(
-# 61 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 61 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
  ap
-# 61 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 61 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
  )
-# 61 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 61 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
            ;
 
   rte_log(4U, 5, "%s: %s",
    func_name, buffer);
  }
 }
-# 112 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 112 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 enum rte_kernel_driver {
  RTE_KDRV_UNKNOWN = 0,
  RTE_KDRV_IGB_UIO,
@@ -3051,35 +3017,35 @@ struct rte_mem_resource {
 
 struct rte_driver {
  
-# 142 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 142 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
 struct { struct 
-# 142 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 142 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 rte_driver 
-# 142 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 142 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
 *tqe_next; struct 
-# 142 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 142 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 rte_driver 
-# 142 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 142 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
 * *tqe_prev; } 
-# 142 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 142 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
                         next;
  const char *name;
  const char *alias;
 };
-# 156 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 156 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 struct rte_device {
  
-# 157 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 157 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
 struct { struct 
-# 157 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 157 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 rte_device 
-# 157 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 157 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
 *tqe_next; struct 
-# 157 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 157 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 rte_device 
-# 157 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
+# 157 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h" 3 4
 * *tqe_prev; } 
-# 157 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 157 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
                         next;
  const char *name;
  const struct rte_driver *driver;
@@ -3087,21 +3053,21 @@ rte_device
  int numa_node;
  struct rte_devargs *devargs;
 };
-# 176 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 176 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 int rte_dev_is_probed(const struct rte_device *dev);
-# 195 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 195 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 int rte_eal_hotplug_add(const char *busname, const char *devname,
    const char *drvargs);
-# 209 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 209 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 int rte_dev_probe(const char *devargs);
-# 224 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 224 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 int rte_eal_hotplug_remove(const char *busname, const char *devname);
-# 237 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 237 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 int rte_dev_remove(struct rte_device *dev);
-# 258 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 258 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 typedef int (*rte_dev_cmp_t)(const struct rte_device *dev, const void *data);
-# 306 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 306 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 struct rte_dev_iterator {
  const char *dev_str;
  const char *bus_str;
@@ -3111,89 +3077,89 @@ struct rte_dev_iterator {
  struct rte_device *device;
  void *class_device;
 };
-# 344 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 344 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 typedef void *(*rte_dev_iterate_t)(const void *start,
        const char *devstr,
        const struct rte_dev_iterator *it);
-# 368 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 368 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 int
 rte_dev_iterator_init(struct rte_dev_iterator *it, const char *str);
-# 388 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 388 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 struct rte_device *
 rte_dev_iterator_next(struct rte_dev_iterator *it);
-# 421 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 421 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_dev_event_callback_register(const char *device_name,
     rte_dev_event_cb_fn cb_fn,
     void *cb_arg);
-# 445 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 445 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_dev_event_callback_unregister(const char *device_name,
       rte_dev_event_cb_fn cb_fn,
       void *cb_arg);
-# 462 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 462 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 void __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_dev_event_callback_process(const char *device_name,
           enum rte_dev_event_type event);
-# 476 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 476 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_dev_event_monitor_start(void);
-# 489 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 489 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_dev_event_monitor_stop(void);
-# 502 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 502 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_dev_hotplug_handle_enable(void);
-# 515 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev.h"
+# 515 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_dev_hotplug_handle_disable(void);
-# 153 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h" 1
-# 26 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h" 1
-# 56 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 153 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h" 1
+# 26 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h" 1
+# 56 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 
-# 56 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
+# 56 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
 struct 
-# 56 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 56 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 rte_bus_list 
-# 56 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
+# 56 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
 { struct 
-# 56 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 56 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 rte_bus 
-# 56 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
+# 56 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
 *tqh_first; struct 
-# 56 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 56 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 rte_bus 
-# 56 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
+# 56 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
 * *tqh_last; }
-# 56 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 56 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
                                 ;
-# 67 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 67 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 enum rte_iova_mode {
  RTE_IOVA_DC = 0,
  RTE_IOVA_PA = (1 << 0),
  RTE_IOVA_VA = (1 << 1)
 };
-# 84 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 84 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 typedef int (*rte_bus_scan_t)(void);
-# 96 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 96 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 typedef int (*rte_bus_probe_t)(void);
-# 120 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 120 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 typedef struct rte_device *
 (*rte_bus_find_device_t)(const struct rte_device *start, rte_dev_cmp_t cmp,
     const void *data);
-# 135 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 135 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 typedef int (*rte_bus_plug_t)(struct rte_device *dev);
-# 148 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 148 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 typedef int (*rte_bus_unplug_t)(struct rte_device *dev);
-# 168 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 168 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 typedef int (*rte_bus_parse_t)(const char *name, void *addr);
-# 182 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 182 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 typedef int (*rte_bus_hot_unplug_handler_t)(struct rte_device *dev);
-# 197 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 197 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 typedef int (*rte_bus_sigbus_handler_t)(const void *failure_addr);
 
 
@@ -3211,7 +3177,7 @@ enum rte_bus_scan_mode {
 struct rte_bus_conf {
  enum rte_bus_scan_mode scan_mode;
 };
-# 226 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 226 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 typedef enum rte_iova_mode (*rte_bus_get_iommu_class_t)(void);
 
 
@@ -3220,17 +3186,17 @@ typedef enum rte_iova_mode (*rte_bus_get_iommu_class_t)(void);
 
 struct rte_bus {
  
-# 233 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
+# 233 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
 struct { struct 
-# 233 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 233 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 rte_bus 
-# 233 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
+# 233 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
 *tqe_next; struct 
-# 233 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 233 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 rte_bus 
-# 233 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
+# 233 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h" 3 4
 * *tqe_prev; } 
-# 233 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 233 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
                      next;
  const char *name;
  rte_bus_scan_t scan;
@@ -3248,13 +3214,13 @@ rte_bus
 
 
 };
-# 258 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 258 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 void rte_bus_register(struct rte_bus *bus);
-# 267 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 267 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 void rte_bus_unregister(struct rte_bus *bus);
-# 276 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 276 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 int rte_bus_scan(void);
-# 286 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 286 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 int rte_bus_probe(void);
 
 
@@ -3264,9 +3230,9 @@ int rte_bus_probe(void);
 
 
 void rte_bus_dump(FILE *f);
-# 311 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 311 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 typedef int (*rte_bus_cmp_t)(const struct rte_bus *bus, const void *data);
-# 335 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 335 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 struct rte_bus *rte_bus_find(const struct rte_bus *start, rte_bus_cmp_t cmp,
         const void *data);
 
@@ -3279,9 +3245,9 @@ struct rte_bus *rte_bus_find_by_device(const struct rte_device *dev);
 
 
 struct rte_bus *rte_bus_find_by_name(const char *busname);
-# 356 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_bus.h"
+# 356 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_bus.h"
 enum rte_iova_mode rte_bus_get_iommu_class(void);
-# 27 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h" 2
+# 27 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h" 2
 
 
 
@@ -3291,21 +3257,21 @@ enum rte_devtype {
  RTE_DEVTYPE_BLACKLISTED_PCI,
  RTE_DEVTYPE_VIRTUAL,
 };
-# 47 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h"
+# 47 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h"
 struct rte_devargs {
 
  
-# 49 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h" 3 4
+# 49 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h" 3 4
 struct { struct 
-# 49 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h"
+# 49 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h"
 rte_devargs 
-# 49 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h" 3 4
+# 49 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h" 3 4
 *tqe_next; struct 
-# 49 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h"
+# 49 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h"
 rte_devargs 
-# 49 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h" 3 4
+# 49 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h" 3 4
 * *tqe_prev; } 
-# 49 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h"
+# 49 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h"
                          next;
 
  enum rte_devtype type;
@@ -3325,27 +3291,27 @@ rte_devargs
  const char *cls_str;
  const char *data;
 };
-# 101 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h"
+# 101 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 int
 rte_devargs_parse(struct rte_devargs *da, const char *dev);
-# 138 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h"
+# 138 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 int
 rte_devargs_parsef(struct rte_devargs *da,
      const char *format, ...)
 __attribute__((format(printf, 2, 0)));
-# 156 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h"
+# 156 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 int
 rte_devargs_insert(struct rte_devargs **da);
-# 173 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h"
+# 173 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 int rte_devargs_add(enum rte_devtype devtype, const char *devargs_str);
-# 189 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h"
+# 189 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 int rte_devargs_remove(struct rte_devargs *devargs);
-# 201 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h"
+# 201 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 unsigned int
 rte_devargs_type_count(enum rte_devtype devtype);
@@ -3358,15 +3324,15 @@ rte_devargs_type_count(enum rte_devtype devtype);
 
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 void rte_devargs_dump(FILE *f);
-# 230 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_devargs.h"
+# 230 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_devargs.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 struct rte_devargs *
 rte_devargs_next(const char *busname, const struct rte_devargs *start);
-# 154 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_errno.h" 1
-# 18 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_errno.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_per_lcore.h" 1
-# 25 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_per_lcore.h"
+# 154 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_errno.h" 1
+# 18 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_errno.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_per_lcore.h" 1
+# 25 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_per_lcore.h"
 # 1 "/usr/include/pthread.h" 1 3 4
 # 23 "/usr/include/pthread.h" 3 4
 # 1 "/usr/include/sched.h" 1 3 4
@@ -4557,15 +4523,15 @@ extern int pthread_atfork (void (*__prepare) (void),
       void (*__child) (void)) __attribute__ ((__nothrow__ , __leaf__));
 # 1160 "/usr/include/pthread.h" 3 4
 
-# 26 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_per_lcore.h" 2
-# 19 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_errno.h" 2
+# 26 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_per_lcore.h" 2
+# 19 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_errno.h" 2
 
 
-# 20 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_errno.h"
+# 20 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_errno.h"
 extern __thread __typeof__(int) per_lcore__rte_errno;
-# 42 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_errno.h"
+# 42 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_errno.h"
 const char *rte_strerror(int errnum);
-# 53 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_errno.h"
+# 53 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_errno.h"
 enum {
  RTE_MIN_ERRNO = 1000,
 
@@ -4574,14 +4540,14 @@ enum {
 
  RTE_MAX_ERRNO
 };
-# 155 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
+# 155 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
 
 
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h" 1
-# 21 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 1
-# 16 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h" 1
+# 21 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 1
+# 16 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
 # 1 "/usr/include/string.h" 1 3 4
 # 26 "/usr/include/string.h" 3 4
 # 1 "/usr/include/x86_64-linux-gnu/bits/libc-header-start.h" 1 3 4
@@ -4900,13 +4866,13 @@ extern void *memfrob (void *__s, size_t __n) __attribute__ ((__nothrow__ , __lea
 extern char *basename (const char *__filename) __attribute__ ((__nothrow__ , __leaf__)) __attribute__ ((__nonnull__ (1)));
 # 498 "/usr/include/string.h" 3 4
 
-# 17 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_vect.h" 1
-# 16 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_vect.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_vect.h" 1
-# 24 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_vect.h"
+# 17 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_vect.h" 1
+# 16 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_vect.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_vect.h" 1
+# 24 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_vect.h"
 
-# 24 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_vect.h"
+# 24 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_vect.h"
 typedef uint8_t rte_v64u8_t __attribute__((vector_size(8), aligned(8)));
 
 
@@ -4951,7 +4917,7 @@ typedef uint32_t rte_v128u32_t __attribute__((vector_size(16), aligned(16)));
 
 
 typedef uint64_t rte_v128u64_t __attribute__((vector_size(16), aligned(16)));
-# 77 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_vect.h"
+# 77 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_vect.h"
 typedef uint8_t rte_v256u8_t __attribute__((vector_size(32), aligned(32)));
 
 
@@ -4975,7 +4941,7 @@ typedef uint32_t rte_v256u32_t __attribute__((vector_size(32), aligned(32)));
 
 
 typedef uint64_t rte_v256u64_t __attribute__((vector_size(32), aligned(32)));
-# 109 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_vect.h"
+# 109 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_vect.h"
 typedef int8_t rte_v64s8_t __attribute__((vector_size(8), aligned(8)));
 
 
@@ -5020,7 +4986,7 @@ typedef int32_t rte_v128s32_t __attribute__((vector_size(16), aligned(16)));
 
 
 typedef int64_t rte_v128s64_t __attribute__((vector_size(16), aligned(16)));
-# 162 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_vect.h"
+# 162 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_vect.h"
 typedef int8_t rte_v256s8_t __attribute__((vector_size(32), aligned(32)));
 
 
@@ -5044,8 +5010,8 @@ typedef int32_t rte_v256s32_t __attribute__((vector_size(32), aligned(32)));
 
 
 typedef int64_t rte_v256s64_t __attribute__((vector_size(32), aligned(32)));
-# 17 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_vect.h" 2
-# 28 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_vect.h"
+# 17 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_vect.h" 2
+# 28 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_vect.h"
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/x86intrin.h" 1 3 4
 # 27 "/usr/lib/gcc/x86_64-linux-gnu/7/include/x86intrin.h" 3 4
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/ia32intrin.h" 1 3 4
@@ -9264,14 +9230,7 @@ _mm_crc32_u64 (unsigned long long __C, unsigned long long __V)
 # 44 "/usr/lib/gcc/x86_64-linux-gnu/7/include/x86intrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/wmmintrin.h" 1 3 4
-# 36 "/usr/lib/gcc/x86_64-linux-gnu/7/include/wmmintrin.h" 3 4
-#pragma GCC push_options
-#pragma GCC target("aes")
-
-
-
-
-
+# 43 "/usr/lib/gcc/x86_64-linux-gnu/7/include/wmmintrin.h" 3 4
 extern __inline __m128i __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_aesdec_si128 (__m128i __X, __m128i __Y)
 {
@@ -9310,8 +9269,6 @@ _mm_aesimc_si128 (__m128i __X)
 {
   return (__m128i) __builtin_ia32_aesimc128 ((__v2di)__X);
 }
-# 99 "/usr/lib/gcc/x86_64-linux-gnu/7/include/wmmintrin.h" 3 4
-#pragma GCC pop_options
 # 46 "/usr/lib/gcc/x86_64-linux-gnu/7/include/x86intrin.h" 2 3 4
 
 
@@ -10261,6 +10218,9 @@ _mm256_castsi128_si256 (__m128i __A)
 # 42 "/usr/lib/gcc/x86_64-linux-gnu/7/include/immintrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/avx2intrin.h" 1 3 4
+# 32 "/usr/lib/gcc/x86_64-linux-gnu/7/include/avx2intrin.h" 3 4
+#pragma GCC push_options
+#pragma GCC target("avx2")
 # 54 "/usr/lib/gcc/x86_64-linux-gnu/7/include/avx2intrin.h" 3 4
 extern __inline __m256i
 __attribute__ ((__gnu_inline__, __always_inline__, __artificial__))
@@ -11255,6 +11215,8 @@ _mm_srlv_epi64 (__m128i __X, __m128i __Y)
 {
   return (__m128i) __builtin_ia32_psrlv2di ((__v2di)__X, (__v2di)__Y);
 }
+# 1905 "/usr/lib/gcc/x86_64-linux-gnu/7/include/avx2intrin.h" 3 4
+#pragma GCC pop_options
 # 44 "/usr/lib/gcc/x86_64-linux-gnu/7/include/immintrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/avx512fintrin.h" 1 3 4
@@ -38333,7 +38295,12 @@ _mm_sha256rnds2_epu32 (__m128i __A, __m128i __B, __m128i __C)
 # 78 "/usr/lib/gcc/x86_64-linux-gnu/7/include/immintrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/lzcntintrin.h" 1 3 4
-# 38 "/usr/lib/gcc/x86_64-linux-gnu/7/include/lzcntintrin.h" 3 4
+# 33 "/usr/lib/gcc/x86_64-linux-gnu/7/include/lzcntintrin.h" 3 4
+#pragma GCC push_options
+#pragma GCC target("lzcnt")
+
+
+
 extern __inline unsigned short __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 __lzcnt16 (unsigned short __X)
 {
@@ -38364,10 +38331,20 @@ _lzcnt_u64 (unsigned long long __X)
 {
   return __builtin_ia32_lzcnt_u64 (__X);
 }
+
+
+
+
+#pragma GCC pop_options
 # 80 "/usr/lib/gcc/x86_64-linux-gnu/7/include/immintrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/bmiintrin.h" 1 3 4
-# 37 "/usr/lib/gcc/x86_64-linux-gnu/7/include/bmiintrin.h" 3 4
+# 32 "/usr/lib/gcc/x86_64-linux-gnu/7/include/bmiintrin.h" 3 4
+#pragma GCC push_options
+#pragma GCC target("bmi")
+
+
+
 extern __inline unsigned short __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 __tzcnt_u16 (unsigned short __X)
 {
@@ -38507,10 +38484,21 @@ _tzcnt_u64 (unsigned long long __X)
 {
   return __builtin_ia32_tzcnt_u64 (__X);
 }
+
+
+
+
+
+#pragma GCC pop_options
 # 82 "/usr/lib/gcc/x86_64-linux-gnu/7/include/immintrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/bmi2intrin.h" 1 3 4
-# 37 "/usr/lib/gcc/x86_64-linux-gnu/7/include/bmi2intrin.h" 3 4
+# 32 "/usr/lib/gcc/x86_64-linux-gnu/7/include/bmi2intrin.h" 3 4
+#pragma GCC push_options
+#pragma GCC target("bmi2")
+
+
+
 extern __inline unsigned int
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _bzhi_u32 (unsigned int __X, unsigned int __Y)
@@ -38564,10 +38552,17 @@ _mulx_u64 (unsigned long long __X, unsigned long long __Y,
   *__P = (unsigned long long) (__res >> 64);
   return (unsigned long long) __res;
 }
+# 106 "/usr/lib/gcc/x86_64-linux-gnu/7/include/bmi2intrin.h" 3 4
+#pragma GCC pop_options
 # 84 "/usr/lib/gcc/x86_64-linux-gnu/7/include/immintrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/fmaintrin.h" 1 3 4
-# 37 "/usr/lib/gcc/x86_64-linux-gnu/7/include/fmaintrin.h" 3 4
+# 32 "/usr/lib/gcc/x86_64-linux-gnu/7/include/fmaintrin.h" 3 4
+#pragma GCC push_options
+#pragma GCC target("fma")
+
+
+
 extern __inline __m128d
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_fmadd_pd (__m128d __A, __m128d __B, __m128d __C)
@@ -38827,6 +38822,10 @@ _mm256_fmsubadd_ps (__m256 __A, __m256 __B, __m256 __C)
                                                 (__v8sf)__B,
                                                 -(__v8sf)__C);
 }
+
+
+
+#pragma GCC pop_options
 # 86 "/usr/lib/gcc/x86_64-linux-gnu/7/include/immintrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/f16cintrin.h" 1 3 4
@@ -40286,7 +40285,13 @@ __tzmsk_u64 (unsigned long long __X)
 
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/rdseedintrin.h" 1 3 4
-# 38 "/usr/lib/gcc/x86_64-linux-gnu/7/include/rdseedintrin.h" 3 4
+# 32 "/usr/lib/gcc/x86_64-linux-gnu/7/include/rdseedintrin.h" 3 4
+#pragma GCC push_options
+#pragma GCC target("rdseed")
+
+
+
+
 extern __inline int
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _rdseed16_step (unsigned short *__p)
@@ -40308,6 +40313,11 @@ _rdseed64_step (unsigned long long *__p)
 {
   return __builtin_ia32_rdseed_di_step (__p);
 }
+
+
+
+
+#pragma GCC pop_options
 # 69 "/usr/lib/gcc/x86_64-linux-gnu/7/include/x86intrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/prfchwintrin.h" 1 3 4
@@ -40396,6 +40406,12 @@ _xsaveopt64 (void *__P, long long __M)
 # 77 "/usr/lib/gcc/x86_64-linux-gnu/7/include/x86intrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/sgxintrin.h" 1 3 4
+
+
+
+
+#pragma GCC push_options
+#pragma GCC target("sgx")
 # 70 "/usr/lib/gcc/x86_64-linux-gnu/7/include/sgxintrin.h" 3 4
 extern __inline int
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
@@ -40498,6 +40514,10 @@ _enclu_u32 (const int __L, size_t __D[])
     }
   return __R;
 }
+
+
+
+#pragma GCC pop_options
 # 79 "/usr/lib/gcc/x86_64-linux-gnu/7/include/x86intrin.h" 2 3 4
 
 
@@ -40576,17 +40596,31 @@ _mm_clwb (void *__A)
 # 87 "/usr/lib/gcc/x86_64-linux-gnu/7/include/x86intrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/clflushoptintrin.h" 1 3 4
-# 37 "/usr/lib/gcc/x86_64-linux-gnu/7/include/clflushoptintrin.h" 3 4
+# 32 "/usr/lib/gcc/x86_64-linux-gnu/7/include/clflushoptintrin.h" 3 4
+#pragma GCC push_options
+#pragma GCC target("clflushopt")
+
+
+
 extern __inline void
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _mm_clflushopt (void *__A)
 {
   __builtin_ia32_clflushopt (__A);
 }
+
+
+
+#pragma GCC pop_options
 # 89 "/usr/lib/gcc/x86_64-linux-gnu/7/include/x86intrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/xsavesintrin.h" 1 3 4
-# 37 "/usr/lib/gcc/x86_64-linux-gnu/7/include/xsavesintrin.h" 3 4
+# 32 "/usr/lib/gcc/x86_64-linux-gnu/7/include/xsavesintrin.h" 3 4
+#pragma GCC push_options
+#pragma GCC target("xsaves")
+
+
+
 extern __inline void
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _xsaves (void *__P, long long __M)
@@ -40615,10 +40649,20 @@ _xsaves64 (void *__P, long long __M)
 {
   __builtin_ia32_xsaves64 (__P, __M);
 }
+
+
+
+
+#pragma GCC pop_options
 # 91 "/usr/lib/gcc/x86_64-linux-gnu/7/include/x86intrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/xsavecintrin.h" 1 3 4
-# 37 "/usr/lib/gcc/x86_64-linux-gnu/7/include/xsavecintrin.h" 3 4
+# 32 "/usr/lib/gcc/x86_64-linux-gnu/7/include/xsavecintrin.h" 3 4
+#pragma GCC push_options
+#pragma GCC target("xsavec")
+
+
+
 extern __inline void
 __attribute__((__gnu_inline__, __always_inline__, __artificial__))
 _xsavec (void *__P, long long __M)
@@ -40633,6 +40677,11 @@ _xsavec64 (void *__P, long long __M)
 {
   __builtin_ia32_xsavec64 (__P, __M);
 }
+
+
+
+
+#pragma GCC pop_options
 # 93 "/usr/lib/gcc/x86_64-linux-gnu/7/include/x86intrin.h" 2 3 4
 
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/mwaitxintrin.h" 1 3 4
@@ -40702,7 +40751,7 @@ _wrpkru (unsigned int __key)
 
 #pragma GCC pop_options
 # 99 "/usr/lib/gcc/x86_64-linux-gnu/7/include/x86intrin.h" 2 3 4
-# 29 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_vect.h" 2
+# 29 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_vect.h" 2
 
 
 
@@ -40711,7 +40760,7 @@ _wrpkru (unsigned int __key)
 
 
 
-# 36 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_vect.h"
+# 36 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_vect.h"
 typedef __m128i xmm_t;
 
 
@@ -40742,17 +40791,17 @@ typedef union rte_ymm {
  uint64_t u64[(sizeof(ymm_t)) / sizeof(uint64_t)];
  double pd[(sizeof(ymm_t)) / sizeof(double)];
 } rte_ymm_t;
-# 18 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 2
-# 40 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+# 18 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 2
+# 40 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
 static inline __attribute__((always_inline)) void *
 rte_memcpy(void *dst, const void *src, size_t n);
-# 296 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+# 489 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
 static inline __attribute__((always_inline)) void
 rte_mov16(uint8_t *dst, const uint8_t *src)
 {
  __m128i xmm0;
 
- xmm0 = _mm_loadu_si128((const __m128i *)src);
+ xmm0 = _mm_loadu_si128((const __m128i *)(const __m128i *)src);
  _mm_storeu_si128((__m128i *)dst, xmm0);
 }
 
@@ -40763,10 +40812,8 @@ rte_mov16(uint8_t *dst, const uint8_t *src)
 static inline __attribute__((always_inline)) void
 rte_mov32(uint8_t *dst, const uint8_t *src)
 {
- __m256i ymm0;
-
- ymm0 = _mm256_loadu_si256((const __m256i *)src);
- _mm256_storeu_si256((__m256i *)dst, ymm0);
+ rte_mov16((uint8_t *)dst + 0 * 16, (const uint8_t *)src + 0 * 16);
+ rte_mov16((uint8_t *)dst + 1 * 16, (const uint8_t *)src + 1 * 16);
 }
 
 
@@ -40776,8 +40823,10 @@ rte_mov32(uint8_t *dst, const uint8_t *src)
 static inline __attribute__((always_inline)) void
 rte_mov64(uint8_t *dst, const uint8_t *src)
 {
- rte_mov32((uint8_t *)dst + 0 * 32, (const uint8_t *)src + 0 * 32);
- rte_mov32((uint8_t *)dst + 1 * 32, (const uint8_t *)src + 1 * 32);
+ rte_mov16((uint8_t *)dst + 0 * 16, (const uint8_t *)src + 0 * 16);
+ rte_mov16((uint8_t *)dst + 1 * 16, (const uint8_t *)src + 1 * 16);
+ rte_mov16((uint8_t *)dst + 2 * 16, (const uint8_t *)src + 2 * 16);
+ rte_mov16((uint8_t *)dst + 3 * 16, (const uint8_t *)src + 3 * 16);
 }
 
 
@@ -40787,10 +40836,14 @@ rte_mov64(uint8_t *dst, const uint8_t *src)
 static inline void
 rte_mov128(uint8_t *dst, const uint8_t *src)
 {
- rte_mov32((uint8_t *)dst + 0 * 32, (const uint8_t *)src + 0 * 32);
- rte_mov32((uint8_t *)dst + 1 * 32, (const uint8_t *)src + 1 * 32);
- rte_mov32((uint8_t *)dst + 2 * 32, (const uint8_t *)src + 2 * 32);
- rte_mov32((uint8_t *)dst + 3 * 32, (const uint8_t *)src + 3 * 32);
+ rte_mov16((uint8_t *)dst + 0 * 16, (const uint8_t *)src + 0 * 16);
+ rte_mov16((uint8_t *)dst + 1 * 16, (const uint8_t *)src + 1 * 16);
+ rte_mov16((uint8_t *)dst + 2 * 16, (const uint8_t *)src + 2 * 16);
+ rte_mov16((uint8_t *)dst + 3 * 16, (const uint8_t *)src + 3 * 16);
+ rte_mov16((uint8_t *)dst + 4 * 16, (const uint8_t *)src + 4 * 16);
+ rte_mov16((uint8_t *)dst + 5 * 16, (const uint8_t *)src + 5 * 16);
+ rte_mov16((uint8_t *)dst + 6 * 16, (const uint8_t *)src + 6 * 16);
+ rte_mov16((uint8_t *)dst + 7 * 16, (const uint8_t *)src + 7 * 16);
 }
 
 
@@ -40798,33 +40851,35 @@ rte_mov128(uint8_t *dst, const uint8_t *src)
 
 
 static inline void
-rte_mov128blocks(uint8_t *dst, const uint8_t *src, size_t n)
+rte_mov256(uint8_t *dst, const uint8_t *src)
 {
- __m256i ymm0, ymm1, ymm2, ymm3;
-
- while (n >= 128) {
-  ymm0 = _mm256_loadu_si256((const __m256i *)((const uint8_t *)src + 0 * 32));
-  n -= 128;
-  ymm1 = _mm256_loadu_si256((const __m256i *)((const uint8_t *)src + 1 * 32));
-  ymm2 = _mm256_loadu_si256((const __m256i *)((const uint8_t *)src + 2 * 32));
-  ymm3 = _mm256_loadu_si256((const __m256i *)((const uint8_t *)src + 3 * 32));
-  src = (const uint8_t *)src + 128;
-  _mm256_storeu_si256((__m256i *)((uint8_t *)dst + 0 * 32), ymm0);
-  _mm256_storeu_si256((__m256i *)((uint8_t *)dst + 1 * 32), ymm1);
-  _mm256_storeu_si256((__m256i *)((uint8_t *)dst + 2 * 32), ymm2);
-  _mm256_storeu_si256((__m256i *)((uint8_t *)dst + 3 * 32), ymm3);
-  dst = (uint8_t *)dst + 128;
- }
+ rte_mov16((uint8_t *)dst + 0 * 16, (const uint8_t *)src + 0 * 16);
+ rte_mov16((uint8_t *)dst + 1 * 16, (const uint8_t *)src + 1 * 16);
+ rte_mov16((uint8_t *)dst + 2 * 16, (const uint8_t *)src + 2 * 16);
+ rte_mov16((uint8_t *)dst + 3 * 16, (const uint8_t *)src + 3 * 16);
+ rte_mov16((uint8_t *)dst + 4 * 16, (const uint8_t *)src + 4 * 16);
+ rte_mov16((uint8_t *)dst + 5 * 16, (const uint8_t *)src + 5 * 16);
+ rte_mov16((uint8_t *)dst + 6 * 16, (const uint8_t *)src + 6 * 16);
+ rte_mov16((uint8_t *)dst + 7 * 16, (const uint8_t *)src + 7 * 16);
+ rte_mov16((uint8_t *)dst + 8 * 16, (const uint8_t *)src + 8 * 16);
+ rte_mov16((uint8_t *)dst + 9 * 16, (const uint8_t *)src + 9 * 16);
+ rte_mov16((uint8_t *)dst + 10 * 16, (const uint8_t *)src + 10 * 16);
+ rte_mov16((uint8_t *)dst + 11 * 16, (const uint8_t *)src + 11 * 16);
+ rte_mov16((uint8_t *)dst + 12 * 16, (const uint8_t *)src + 12 * 16);
+ rte_mov16((uint8_t *)dst + 13 * 16, (const uint8_t *)src + 13 * 16);
+ rte_mov16((uint8_t *)dst + 14 * 16, (const uint8_t *)src + 14 * 16);
+ rte_mov16((uint8_t *)dst + 15 * 16, (const uint8_t *)src + 15 * 16);
 }
-
+# 658 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
 static inline void *
 rte_memcpy_generic(void *dst, const void *src, size_t n)
 {
+ __m128i xmm0, xmm1, xmm2, xmm3, xmm4, xmm5, xmm6, xmm7, xmm8;
  uintptr_t dstu = (uintptr_t)dst;
  uintptr_t srcu = (uintptr_t)src;
  void *ret = dst;
  size_t dstofss;
- size_t bits;
+ size_t srcofs;
 
 
 
@@ -40856,46 +40911,59 @@ rte_memcpy_generic(void *dst, const void *src, size_t n)
 
  if (n <= 32) {
   rte_mov16((uint8_t *)dst, (const uint8_t *)src);
-  rte_mov16((uint8_t *)dst - 16 + n,
-    (const uint8_t *)src - 16 + n);
+  rte_mov16((uint8_t *)dst - 16 + n, (const uint8_t *)src - 16 + n);
   return ret;
  }
  if (n <= 48) {
-  rte_mov16((uint8_t *)dst, (const uint8_t *)src);
-  rte_mov16((uint8_t *)dst + 16, (const uint8_t *)src + 16);
-  rte_mov16((uint8_t *)dst - 16 + n,
-    (const uint8_t *)src - 16 + n);
+  rte_mov32((uint8_t *)dst, (const uint8_t *)src);
+  rte_mov16((uint8_t *)dst - 16 + n, (const uint8_t *)src - 16 + n);
   return ret;
  }
  if (n <= 64) {
   rte_mov32((uint8_t *)dst, (const uint8_t *)src);
-  rte_mov32((uint8_t *)dst - 32 + n,
-    (const uint8_t *)src - 32 + n);
+  rte_mov16((uint8_t *)dst + 32, (const uint8_t *)src + 32);
+  rte_mov16((uint8_t *)dst - 16 + n, (const uint8_t *)src - 16 + n);
   return ret;
  }
- if (n <= 256) {
+ if (n <= 128) {
+  goto COPY_BLOCK_128_BACK15;
+ }
+ if (n <= 512) {
+  if (n >= 256) {
+   n -= 256;
+   rte_mov128((uint8_t *)dst, (const uint8_t *)src);
+   rte_mov128((uint8_t *)dst + 128, (const uint8_t *)src + 128);
+   src = (const uint8_t *)src + 256;
+   dst = (uint8_t *)dst + 256;
+  }
+COPY_BLOCK_255_BACK15:
   if (n >= 128) {
    n -= 128;
    rte_mov128((uint8_t *)dst, (const uint8_t *)src);
    src = (const uint8_t *)src + 128;
    dst = (uint8_t *)dst + 128;
   }
-COPY_BLOCK_128_BACK31:
+COPY_BLOCK_128_BACK15:
   if (n >= 64) {
    n -= 64;
    rte_mov64((uint8_t *)dst, (const uint8_t *)src);
    src = (const uint8_t *)src + 64;
    dst = (uint8_t *)dst + 64;
   }
-  if (n > 32) {
+COPY_BLOCK_64_BACK15:
+  if (n >= 32) {
+   n -= 32;
    rte_mov32((uint8_t *)dst, (const uint8_t *)src);
-   rte_mov32((uint8_t *)dst - 32 + n,
-     (const uint8_t *)src - 32 + n);
+   src = (const uint8_t *)src + 32;
+   dst = (uint8_t *)dst + 32;
+  }
+  if (n > 16) {
+   rte_mov16((uint8_t *)dst, (const uint8_t *)src);
+   rte_mov16((uint8_t *)dst - 16 + n, (const uint8_t *)src - 16 + n);
    return ret;
   }
   if (n > 0) {
-   rte_mov32((uint8_t *)dst - 32 + n,
-     (const uint8_t *)src - 32 + n);
+   rte_mov16((uint8_t *)dst - 16 + n, (const uint8_t *)src - 16 + n);
   }
   return ret;
  }
@@ -40903,31 +40971,2451 @@ COPY_BLOCK_128_BACK31:
 
 
 
- dstofss = (uintptr_t)dst & 0x1F;
+
+
+
+ dstofss = (uintptr_t)dst & 0x0F;
  if (dstofss > 0) {
-  dstofss = 32 - dstofss;
+  dstofss = 16 - dstofss + 16;
   n -= dstofss;
   rte_mov32((uint8_t *)dst, (const uint8_t *)src);
   src = (const uint8_t *)src + dstofss;
   dst = (uint8_t *)dst + dstofss;
  }
+ srcofs = ((uintptr_t)src & 0x0F);
 
 
 
 
- rte_mov128blocks((uint8_t *)dst, (const uint8_t *)src, n);
- bits = n;
- n = n & 127;
- bits -= n;
- src = (const uint8_t *)src + bits;
- dst = (uint8_t *)dst + bits;
+ if (srcofs == 0) {
+
+
+
+  for (; n >= 256; n -= 256) {
+   rte_mov256((uint8_t *)dst, (const uint8_t *)src);
+   dst = (uint8_t *)dst + 256;
+   src = (const uint8_t *)src + 256;
+  }
 
 
 
 
- goto COPY_BLOCK_128_BACK31;
+  goto COPY_BLOCK_255_BACK15;
+ }
+
+
+
+
+ __extension__ ({ switch (srcofs) { case 0x01: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x01) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x01 + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x01 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x01 + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x01 + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x01 + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x01 + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x01 + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x01 + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x01 + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x01
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x01
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x01
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x01
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x01
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x01
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x01
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x01
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x01) & 127) + 16 - 0x01; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x01) { while (n >= 32 + 16 - 0x01) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x01 + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x01 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x01 + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x01
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x01
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x01) & 31) + 16 - 0x01; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x02: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x02) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x02 + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x02 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x02 + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x02 + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x02 + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x02 + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x02 + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x02 + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x02 + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x02
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x02
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x02
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x02
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x02
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x02
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x02
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x02
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x02) & 127) + 16 - 0x02; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x02) { while (n >= 32 + 16 - 0x02) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x02 + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x02 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x02 + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x02
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x02
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x02) & 31) + 16 - 0x02; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x03: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x03) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x03 + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x03 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x03 + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x03 + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x03 + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x03 + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x03 + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x03 + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x03 + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x03
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x03
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x03
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x03
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x03
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x03
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x03
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x03
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x03) & 127) + 16 - 0x03; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x03) { while (n >= 32 + 16 - 0x03) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x03 + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x03 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x03 + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x03
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x03
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x03) & 31) + 16 - 0x03; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x04: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x04) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x04 + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x04 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x04 + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x04 + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x04 + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x04 + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x04 + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x04 + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x04 + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x04
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x04
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x04
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x04
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x04
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x04
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x04
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x04
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x04) & 127) + 16 - 0x04; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x04) { while (n >= 32 + 16 - 0x04) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x04 + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x04 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x04 + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x04
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x04
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x04) & 31) + 16 - 0x04; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x05: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x05) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x05 + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x05 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x05 + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x05 + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x05 + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x05 + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x05 + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x05 + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x05 + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x05
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x05
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x05
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x05
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x05
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x05
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x05
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x05
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x05) & 127) + 16 - 0x05; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x05) { while (n >= 32 + 16 - 0x05) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x05 + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x05 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x05 + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x05
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x05
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x05) & 31) + 16 - 0x05; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x06: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x06) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x06 + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x06 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x06 + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x06 + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x06 + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x06 + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x06 + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x06 + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x06 + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x06
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x06
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x06
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x06
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x06
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x06
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x06
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x06
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x06) & 127) + 16 - 0x06; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x06) { while (n >= 32 + 16 - 0x06) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x06 + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x06 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x06 + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x06
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x06
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x06) & 31) + 16 - 0x06; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x07: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x07) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x07 + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x07 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x07 + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x07 + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x07 + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x07 + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x07 + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x07 + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x07 + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x07
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x07
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x07
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x07
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x07
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x07
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x07
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x07
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x07) & 127) + 16 - 0x07; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x07) { while (n >= 32 + 16 - 0x07) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x07 + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x07 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x07 + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x07
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x07
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x07) & 31) + 16 - 0x07; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x08: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x08) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x08 + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x08 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x08 + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x08 + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x08 + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x08 + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x08 + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x08 + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x08 + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x08
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x08
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x08
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x08
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x08
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x08
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x08
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x08
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x08) & 127) + 16 - 0x08; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x08) { while (n >= 32 + 16 - 0x08) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x08 + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x08 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x08 + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x08
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x08
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x08) & 31) + 16 - 0x08; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x09: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x09) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x09 + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x09 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x09 + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x09 + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x09 + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x09 + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x09 + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x09 + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x09 + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x09
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x09
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x09
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x09
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x09
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x09
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x09
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x09
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x09) & 127) + 16 - 0x09; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x09) { while (n >= 32 + 16 - 0x09) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x09 + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x09 + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x09 + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x09
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x09
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x09) & 31) + 16 - 0x09; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x0A: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x0A) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0A + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0A + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0A + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0A + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0A + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0A + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0A + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0A + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0A + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0A
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0A
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0A
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0A
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0A
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0A
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0A
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0A
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x0A) & 127) + 16 - 0x0A; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x0A) { while (n >= 32 + 16 - 0x0A) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0A + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0A + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0A + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0A
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0A
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x0A) & 31) + 16 - 0x0A; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x0B: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x0B) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0B + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0B + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0B + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0B + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0B + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0B + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0B + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0B + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0B + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0B
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0B
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0B
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0B
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0B
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0B
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0B
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0B
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x0B) & 127) + 16 - 0x0B; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x0B) { while (n >= 32 + 16 - 0x0B) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0B + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0B + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0B + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0B
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0B
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x0B) & 31) + 16 - 0x0B; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x0C: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x0C) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0C + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0C + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0C + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0C + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0C + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0C + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0C + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0C + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0C + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0C
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0C
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0C
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0C
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0C
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0C
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0C
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0C
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x0C) & 127) + 16 - 0x0C; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x0C) { while (n >= 32 + 16 - 0x0C) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0C + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0C + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0C + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0C
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0C
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x0C) & 31) + 16 - 0x0C; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x0D: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x0D) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0D + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0D + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0D + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0D + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0D + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0D + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0D + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0D + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0D + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0D
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0D
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0D
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0D
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0D
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0D
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0D
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0D
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x0D) & 127) + 16 - 0x0D; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x0D) { while (n >= 32 + 16 - 0x0D) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0D + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0D + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0D + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0D
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0D
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x0D) & 31) + 16 - 0x0D; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x0E: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x0E) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0E + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0E + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0E + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0E + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0E + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0E + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0E + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0E + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0E + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0E
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0E
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0E
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0E
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0E
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0E
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0E
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0E
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x0E) & 127) + 16 - 0x0E; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x0E) { while (n >= 32 + 16 - 0x0E) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0E + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0E + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0E + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0E
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0E
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x0E) & 31) + 16 - 0x0E; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; case 0x0F: __extension__ ({ size_t tmp; while (n >= 128 + 16 - 0x0F) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0F + 0 * 16)); n -= 128; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0F + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0F + 2 * 16)); xmm3 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0F + 3 * 16)); xmm4 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0F + 4 * 16)); xmm5 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0F + 5 * 16)); xmm6 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0F + 6 * 16)); xmm7 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0F + 7 * 16)); xmm8 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0F + 8 * 16)); src = (const uint8_t *)src + 128; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0F
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0F
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 2 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0F
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 3 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm3
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0F
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 4 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm4
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0F
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 5 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm5
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0F
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 6 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm6
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0F
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 7 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm8
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm7
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0F
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 128; } tmp = n; n = ((n - 16 + 0x0F) & 127) + 16 - 0x0F; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; if (n >= 32 + 16 - 0x0F) { while (n >= 32 + 16 - 0x0F) { xmm0 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0F + 0 * 16)); n -= 32; xmm1 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0F + 1 * 16)); xmm2 = _mm_loadu_si128((const __m128i *)((const uint8_t *)src - 0x0F + 2 * 16)); src = (const uint8_t *)src + 32; _mm_storeu_si128((__m128i *)((uint8_t *)dst + 0 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm0
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0F
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); _mm_storeu_si128((__m128i *)((uint8_t *)dst + 1 * 16), 
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+((__m128i) __builtin_ia32_palignr128 ((__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm2
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (__v2di)(__m128i)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+xmm1
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+), (int)(
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+0x0F
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h" 3 4
+) * 8))
+# 793 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+); dst = (uint8_t *)dst + 32; } tmp = n; n = ((n - 16 + 0x0F) & 31) + 16 - 0x0F; tmp -= n; src = (const uint8_t *)src + tmp; dst = (uint8_t *)dst + tmp; } }); break; default:; } });
+
+
+
+
+ goto COPY_BLOCK_64_BACK15;
 }
-# 803 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memcpy.h"
+
+
+
 static inline void *
 rte_memcpy_aligned(void *dst, const void *src, size_t n)
 {
@@ -40991,20 +43479,20 @@ rte_memcpy_aligned(void *dst, const void *src, size_t n)
 static inline void *
 rte_memcpy(void *dst, const void *src, size_t n)
 {
- if (!(((uintptr_t)dst | (uintptr_t)src) & 0x1F))
+ if (!(((uintptr_t)dst | (uintptr_t)src) & 0x0F))
   return rte_memcpy_aligned(dst, src, n);
  else
   return rte_memcpy_generic(dst, src, n);
 }
-# 22 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_random.h" 1
-# 31 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_random.h"
+# 22 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_random.h" 1
+# 31 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_random.h"
 static inline void
 rte_srand(uint64_t seedval)
 {
  srand48((long)seedval);
 }
-# 47 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_random.h"
+# 47 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_random.h"
 static inline uint64_t
 rte_rand(void)
 {
@@ -41014,11 +43502,11 @@ rte_rand(void)
  val += (uint64_t)lrand48();
  return val;
 }
-# 23 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 1
-# 38 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 1
-# 40 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 23 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 1
+# 38 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 1
+# 40 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 # 1 "/usr/include/inttypes.h" 1 3 4
 # 34 "/usr/include/inttypes.h" 3 4
 
@@ -41061,30 +43549,30 @@ extern uintmax_t wcstoumax (const __gwchar_t *__restrict __nptr,
      __attribute__ ((__nothrow__ , __leaf__));
 # 432 "/usr/include/inttypes.h" 3 4
 
-# 41 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 2
+# 41 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 2
 
 
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 1
-# 12 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_spinlock.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h" 1
-# 21 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h" 1
-# 16 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h" 1
-# 23 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_pci_dev_feature_defs.h" 1
-# 9 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_pci_dev_feature_defs.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 1
+# 12 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_spinlock.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h" 1
+# 21 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h" 1
+# 16 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h" 1
+# 23 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_pci_dev_feature_defs.h" 1
+# 9 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_pci_dev_feature_defs.h"
 
-# 9 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_pci_dev_feature_defs.h"
+# 9 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_pci_dev_feature_defs.h"
 enum rte_intr_mode {
  RTE_INTR_MODE_NONE = 0,
  RTE_INTR_MODE_LEGACY,
  RTE_INTR_MODE_MSI,
  RTE_INTR_MODE_MSIX
 };
-# 24 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h" 2
-# 37 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 24 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h" 2
+# 37 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 enum rte_lcore_role_t {
  ROLE_RTE,
  ROLE_OFF,
@@ -41133,17 +43621,17 @@ struct rte_config {
 
 
 struct rte_config *rte_eal_get_configuration(void);
-# 94 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 94 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 enum rte_lcore_role_t rte_eal_lcore_role(unsigned lcore_id);
-# 103 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 103 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 enum rte_proc_type_t rte_eal_process_type(void);
-# 114 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 114 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 int rte_eal_iopl_init(void);
-# 174 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 174 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 int rte_eal_init(int argc, char **argv);
-# 190 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 190 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) rte_eal_cleanup(void);
-# 207 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 207 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 int rte_eal_primary_proc_alive(const char *config_file_path);
 
 
@@ -41170,27 +43658,27 @@ struct rte_mp_reply {
 
 
 typedef int (*rte_mp_t)(const struct rte_mp_msg *msg, const void *peer);
-# 241 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 241 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 typedef int (*rte_mp_async_reply_t)(const struct rte_mp_msg *request,
   const struct rte_mp_reply *reply);
-# 264 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 264 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_mp_action_register(const char *name, rte_mp_t action);
-# 281 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 281 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 void __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_mp_action_unregister(const char *name);
-# 300 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 300 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_mp_sendmsg(struct rte_mp_msg *msg);
-# 328 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 328 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_mp_request_sync(struct rte_mp_msg *req, struct rte_mp_reply *reply,
         const struct timespec *ts);
-# 354 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 354 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_mp_request_async(struct rte_mp_msg *req, const struct timespec *ts,
   rte_mp_async_reply_t clb);
-# 377 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 377 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_mp_reply(struct rte_mp_msg *msg, const char *peer);
 
@@ -41210,12 +43698,12 @@ rte_mp_dev_hotplug_init(void);
 
 
 typedef void (*rte_usage_hook_t)(const char * prgname);
-# 418 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 418 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 rte_usage_hook_t
 rte_set_application_usage_hook(rte_usage_hook_t usage_func);
-# 441 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 441 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 int rte_eal_has_hugepages(void);
-# 450 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 450 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 int rte_eal_has_pci(void);
 
 
@@ -41225,11 +43713,11 @@ int rte_eal_has_pci(void);
 
 
 int rte_eal_create_uio_dev(void);
-# 467 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 467 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 enum rte_intr_mode rte_eal_vfio_intr_mode(void);
-# 476 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 476 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 int rte_sys_gettid(void);
-# 485 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eal.h"
+# 485 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eal.h"
 static inline int rte_gettid(void)
 {
  static __thread __typeof__(int) per_lcore__thread_id = -1;
@@ -41263,9 +43751,9 @@ rte_eal_mbuf_user_pool_ops(void);
 
 const char *
 rte_eal_get_runtime_dir(void);
-# 17 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_launch.h" 1
-# 21 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_launch.h"
+# 17 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_launch.h" 1
+# 21 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_launch.h"
 enum rte_lcore_state_t {
  WAIT,
  RUNNING,
@@ -41276,7 +43764,7 @@ enum rte_lcore_state_t {
 
 
 typedef int (lcore_function_t)(void *);
-# 65 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_launch.h"
+# 65 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_launch.h"
 int rte_eal_remote_launch(lcore_function_t *f, void *arg, unsigned slave_id);
 
 
@@ -41287,19 +43775,19 @@ enum rte_rmt_call_master_t {
  SKIP_MASTER = 0,
  CALL_MASTER,
 };
-# 97 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_launch.h"
+# 97 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_launch.h"
 int rte_eal_mp_remote_launch(lcore_function_t *f, void *arg,
         enum rte_rmt_call_master_t call_master);
-# 110 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_launch.h"
+# 110 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_launch.h"
 enum rte_lcore_state_t rte_eal_get_lcore_state(unsigned slave_id);
-# 130 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_launch.h"
+# 130 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_launch.h"
 int rte_eal_wait_lcore(unsigned slave_id);
-# 142 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_launch.h"
+# 142 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_launch.h"
 void rte_eal_mp_wait_lcore(void);
-# 18 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h" 2
-# 26 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 18 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h" 2
+# 26 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
  typedef cpu_set_t rte_cpuset_t;
-# 35 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 35 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
 struct lcore_config {
  unsigned detected;
  pthread_t thread_id;
@@ -41323,7 +43811,7 @@ extern struct lcore_config lcore_config[128];
 
 extern __thread __typeof__(unsigned) per_lcore__lcore_id;
 extern __thread __typeof__(rte_cpuset_t) per_lcore__cpuset;
-# 71 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 71 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
 static inline unsigned
 rte_lcore_id(void)
 {
@@ -41354,7 +43842,7 @@ rte_lcore_count(void)
  const struct rte_config *cfg = rte_eal_get_configuration();
  return cfg->lcore_count;
 }
-# 116 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 116 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
 static inline int
 rte_lcore_index(int lcore_id)
 {
@@ -41372,19 +43860,19 @@ rte_lcore_index(int lcore_id)
 
 
 unsigned rte_socket_id(void);
-# 144 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 144 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
 unsigned int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_socket_count(void);
-# 161 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 161 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_socket_id_by_idx(unsigned int idx);
-# 172 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 172 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
 static inline unsigned
 rte_lcore_to_socket_id(unsigned lcore_id)
 {
  return lcore_config[lcore_id].socket_id;
 }
-# 187 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 187 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
 static inline int
 rte_lcore_is_enabled(unsigned lcore_id)
 {
@@ -41393,7 +43881,7 @@ rte_lcore_is_enabled(unsigned lcore_id)
   return 0;
  return cfg->lcore_role[lcore_id] == ROLE_RTE;
 }
-# 209 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 209 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
 static inline unsigned
 rte_get_next_lcore(unsigned i, int skip_master, int wrap)
 {
@@ -41413,37 +43901,37 @@ rte_get_next_lcore(unsigned i, int skip_master, int wrap)
  }
  return i;
 }
-# 253 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 253 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
 int rte_thread_set_affinity(rte_cpuset_t *cpusetp);
-# 263 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 263 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
 void rte_thread_get_affinity(rte_cpuset_t *cpusetp);
-# 277 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 277 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
 int rte_thread_setname(pthread_t id, const char *name);
-# 300 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 300 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) int
 rte_ctrl_thread_create(pthread_t *thread, const char *name,
   const pthread_attr_t *attr,
   void *(*start_routine)(void *), void *arg);
-# 316 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_lcore.h"
+# 316 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_lcore.h"
 int
 rte_lcore_has_role(unsigned int lcore_id, enum rte_lcore_role_t role);
-# 22 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h" 2
+# 22 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h" 2
 
 
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_pause.h" 1
-# 12 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_pause.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_pause.h" 1
-# 21 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_pause.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_pause.h" 1
+# 12 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_pause.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_pause.h" 1
+# 21 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_pause.h"
 static inline void rte_pause(void);
-# 13 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_pause.h" 2
+# 13 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_pause.h" 2
 
 
 static inline void rte_pause(void)
 {
  _mm_pause();
 }
-# 26 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h" 2
+# 26 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h" 2
 
 
 
@@ -41451,7 +43939,7 @@ static inline void rte_pause(void)
 typedef struct {
  volatile int locked;
 } rte_spinlock_t;
-# 45 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
+# 45 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
 static inline void
 rte_spinlock_init(rte_spinlock_t *sl)
 {
@@ -41466,13 +43954,13 @@ rte_spinlock_init(rte_spinlock_t *sl)
 
 static inline void
 rte_spinlock_lock(rte_spinlock_t *sl);
-# 76 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
+# 76 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
 static inline void
 rte_spinlock_unlock (rte_spinlock_t *sl);
-# 95 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
+# 95 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
 static inline int
 rte_spinlock_trylock (rte_spinlock_t *sl);
-# 114 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
+# 114 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
 static inline int rte_spinlock_is_locked (rte_spinlock_t *sl)
 {
  return sl->locked;
@@ -41485,13 +43973,13 @@ static inline int rte_spinlock_is_locked (rte_spinlock_t *sl)
 
 
 static inline int rte_tm_supported(void);
-# 140 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
+# 140 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
 static inline void
 rte_spinlock_lock_tm(rte_spinlock_t *sl);
-# 150 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
+# 150 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
 static inline void
 rte_spinlock_unlock_tm(rte_spinlock_t *sl);
-# 169 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
+# 169 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
 static inline int
 rte_spinlock_trylock_tm(rte_spinlock_t *sl);
 
@@ -41503,7 +43991,7 @@ typedef struct {
  volatile int user;
  volatile int count;
 } rte_spinlock_recursive_t;
-# 192 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
+# 192 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
 static inline void rte_spinlock_recursive_init(rte_spinlock_recursive_t *slr)
 {
  rte_spinlock_init(&slr->sl);
@@ -41541,7 +44029,7 @@ static inline void rte_spinlock_recursive_unlock(rte_spinlock_recursive_t *slr)
  }
 
 }
-# 238 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
+# 238 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
 static inline int rte_spinlock_recursive_trylock(rte_spinlock_recursive_t *slr)
 {
  int id = rte_gettid();
@@ -41554,18 +44042,18 @@ static inline int rte_spinlock_recursive_trylock(rte_spinlock_recursive_t *slr)
  slr->count++;
  return 1;
 }
-# 265 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
+# 265 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
 static inline void rte_spinlock_recursive_lock_tm(
  rte_spinlock_recursive_t *slr);
-# 275 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
+# 275 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
 static inline void rte_spinlock_recursive_unlock_tm(
  rte_spinlock_recursive_t *slr);
-# 294 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
+# 294 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_spinlock.h"
 static inline int rte_spinlock_recursive_trylock_tm(
  rte_spinlock_recursive_t *slr);
-# 13 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_rtm.h" 1
-# 28 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_rtm.h"
+# 13 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_rtm.h" 1
+# 28 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_rtm.h"
 static __attribute__((__always_inline__)) inline
 unsigned int rte_xbegin(void)
 {
@@ -41595,9 +44083,9 @@ int rte_xtest(void)
   "=r" (out) :: "memory");
  return out;
 }
-# 14 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_cpuflags.h" 1
-# 12 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_cpuflags.h"
+# 14 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_cpuflags.h" 1
+# 12 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_cpuflags.h"
 enum rte_cpu_flag_t {
 
  RTE_CPUFLAG_SSE3 = 0,
@@ -41705,15 +44193,15 @@ enum rte_cpu_flag_t {
  RTE_CPUFLAG_NUMFLAGS,
 };
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h" 1
-# 19 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h" 1
+# 19 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h"
 __extension__
 enum rte_cpu_flag_t;
-# 31 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h"
+# 31 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h"
 __extension__
 const char *
 rte_cpu_get_flag_name(enum rte_cpu_flag_t feature);
-# 45 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h"
+# 45 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h"
 __extension__
 int
 rte_cpu_get_flag_enabled(enum rte_cpu_flag_t feature);
@@ -41735,29 +44223,29 @@ rte_cpu_check_supported(void);
 
 int
 rte_cpu_is_supported(void);
-# 74 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h"
+# 74 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h"
 unsigned long
 rte_cpu_getauxval(unsigned long type);
-# 85 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h"
+# 85 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cpuflags.h"
 int
 rte_cpu_strcmp_auxval(unsigned long type, const char *str);
-# 120 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_cpuflags.h" 2
-# 15 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_branch_prediction.h" 1
-# 16 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_common.h" 1
-# 17 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_pause.h" 1
-# 18 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_cycles.h" 1
-# 13 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_cycles.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h" 1
-# 17 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_debug.h" 1
-# 17 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_debug.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_log.h" 1
-# 18 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_debug.h" 2
-# 27 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_debug.h"
+# 120 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_cpuflags.h" 2
+# 15 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_branch_prediction.h" 1
+# 16 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_common.h" 1
+# 17 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_pause.h" 1
+# 18 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_cycles.h" 1
+# 13 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_cycles.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h" 1
+# 17 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_debug.h" 1
+# 17 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_debug.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_log.h" 1
+# 18 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_debug.h" 2
+# 27 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_debug.h"
 void rte_dump_stack(void);
 
 
@@ -41766,7 +44254,7 @@ void rte_dump_stack(void);
 
 
 void rte_dump_registers(void);
-# 69 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_debug.h"
+# 69 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_debug.h"
 void __rte_panic(const char *funcname , const char *format, ...)
 
 
@@ -41775,45 +44263,45 @@ void __rte_panic(const char *funcname , const char *format, ...)
 
  __attribute__((noreturn))
  __attribute__((format(printf, 2, 3)));
-# 18 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_atomic.h" 1
-# 16 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_atomic.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h" 1
-# 182 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 18 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_atomic.h" 1
+# 16 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_atomic.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h" 1
+# 182 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int
 rte_atomic16_cmpset(volatile uint16_t *dst, uint16_t exp, uint16_t src);
-# 208 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 208 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline uint16_t
 rte_atomic16_exchange(volatile uint16_t *dst, uint16_t val);
-# 226 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 226 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 typedef struct {
  volatile int16_t cnt;
 } rte_atomic16_t;
-# 241 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 241 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic16_init(rte_atomic16_t *v)
 {
  v->cnt = 0;
 }
-# 255 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 255 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int16_t
 rte_atomic16_read(const rte_atomic16_t *v)
 {
  return v->cnt;
 }
-# 269 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 269 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic16_set(rte_atomic16_t *v, int16_t new_value)
 {
  v->cnt = new_value;
 }
-# 283 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 283 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic16_add(rte_atomic16_t *v, int16_t inc)
 {
  __sync_fetch_and_add(&v->cnt, inc);
 }
-# 297 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 297 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic16_sub(rte_atomic16_t *v, int16_t dec)
 {
@@ -41828,67 +44316,67 @@ rte_atomic16_sub(rte_atomic16_t *v, int16_t dec)
 
 static inline void
 rte_atomic16_inc(rte_atomic16_t *v);
-# 326 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 326 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic16_dec(rte_atomic16_t *v);
-# 350 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 350 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int16_t
 rte_atomic16_add_return(rte_atomic16_t *v, int16_t inc)
 {
  return __sync_add_and_fetch(&v->cnt, inc);
 }
-# 370 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 370 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int16_t
 rte_atomic16_sub_return(rte_atomic16_t *v, int16_t dec)
 {
  return __sync_sub_and_fetch(&v->cnt, dec);
 }
-# 387 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 387 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int rte_atomic16_inc_and_test(rte_atomic16_t *v);
-# 407 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 407 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int rte_atomic16_dec_and_test(rte_atomic16_t *v);
-# 427 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 427 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int rte_atomic16_test_and_set(rte_atomic16_t *v);
-# 442 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 442 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void rte_atomic16_clear(rte_atomic16_t *v)
 {
  v->cnt = 0;
 }
-# 465 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 465 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int
 rte_atomic32_cmpset(volatile uint32_t *dst, uint32_t exp, uint32_t src);
-# 491 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 491 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline uint32_t
 rte_atomic32_exchange(volatile uint32_t *dst, uint32_t val);
-# 509 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 509 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 typedef struct {
  volatile int32_t cnt;
 } rte_atomic32_t;
-# 524 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 524 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic32_init(rte_atomic32_t *v)
 {
  v->cnt = 0;
 }
-# 538 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 538 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int32_t
 rte_atomic32_read(const rte_atomic32_t *v)
 {
  return v->cnt;
 }
-# 552 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 552 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic32_set(rte_atomic32_t *v, int32_t new_value)
 {
  v->cnt = new_value;
 }
-# 566 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 566 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic32_add(rte_atomic32_t *v, int32_t inc)
 {
  __sync_fetch_and_add(&v->cnt, inc);
 }
-# 580 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 580 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic32_sub(rte_atomic32_t *v, int32_t dec)
 {
@@ -41903,79 +44391,79 @@ rte_atomic32_sub(rte_atomic32_t *v, int32_t dec)
 
 static inline void
 rte_atomic32_inc(rte_atomic32_t *v);
-# 609 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 609 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic32_dec(rte_atomic32_t *v);
-# 633 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 633 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int32_t
 rte_atomic32_add_return(rte_atomic32_t *v, int32_t inc)
 {
  return __sync_add_and_fetch(&v->cnt, inc);
 }
-# 653 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 653 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int32_t
 rte_atomic32_sub_return(rte_atomic32_t *v, int32_t dec)
 {
  return __sync_sub_and_fetch(&v->cnt, dec);
 }
-# 670 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 670 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int rte_atomic32_inc_and_test(rte_atomic32_t *v);
-# 690 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 690 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int rte_atomic32_dec_and_test(rte_atomic32_t *v);
-# 710 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 710 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int rte_atomic32_test_and_set(rte_atomic32_t *v);
-# 725 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 725 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void rte_atomic32_clear(rte_atomic32_t *v)
 {
  v->cnt = 0;
 }
-# 747 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 747 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int
 rte_atomic64_cmpset(volatile uint64_t *dst, uint64_t exp, uint64_t src);
-# 773 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 773 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline uint64_t
 rte_atomic64_exchange(volatile uint64_t *dst, uint64_t val);
-# 791 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 791 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 typedef struct {
  volatile int64_t cnt;
 } rte_atomic64_t;
-# 806 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 806 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic64_init(rte_atomic64_t *v);
-# 836 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 836 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int64_t
 rte_atomic64_read(rte_atomic64_t *v);
-# 868 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 868 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic64_set(rte_atomic64_t *v, int64_t new_value);
-# 898 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 898 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic64_add(rte_atomic64_t *v, int64_t inc);
-# 917 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 917 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic64_sub(rte_atomic64_t *v, int64_t dec);
-# 934 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 934 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic64_inc(rte_atomic64_t *v);
-# 951 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 951 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void
 rte_atomic64_dec(rte_atomic64_t *v);
-# 975 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 975 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int64_t
 rte_atomic64_add_return(rte_atomic64_t *v, int64_t inc);
-# 999 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 999 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int64_t
 rte_atomic64_sub_return(rte_atomic64_t *v, int64_t dec);
-# 1021 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 1021 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int rte_atomic64_inc_and_test(rte_atomic64_t *v);
-# 1041 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 1041 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int rte_atomic64_dec_and_test(rte_atomic64_t *v);
-# 1061 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 1061 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline int rte_atomic64_test_and_set(rte_atomic64_t *v);
-# 1076 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
+# 1076 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_atomic.h"
 static inline void rte_atomic64_clear(rte_atomic64_t *v);
-# 17 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_atomic.h" 2
-# 66 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_atomic.h"
+# 17 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_atomic.h" 2
+# 66 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_atomic.h"
 static inline __attribute__((always_inline)) void
 rte_smp_mb(void)
 {
@@ -41985,7 +44473,7 @@ rte_smp_mb(void)
  __asm__ volatile("lock addl $0, -128(%%rsp); " ::: "memory");
 
 }
-# 89 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_atomic.h"
+# 89 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_atomic.h"
 static inline int
 rte_atomic16_cmpset(volatile uint16_t *dst, uint16_t exp, uint16_t src)
 {
@@ -42160,10 +44648,10 @@ static inline int rte_atomic32_dec_and_test(rte_atomic32_t *v)
 
 
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_atomic_64.h" 1
-# 49 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_atomic_64.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_atomic.h" 1
-# 50 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_atomic_64.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_atomic_64.h" 1
+# 49 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_atomic_64.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_atomic.h" 1
+# 50 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_atomic_64.h" 2
 
 
 
@@ -42323,8 +44811,8 @@ static inline void rte_atomic64_clear(rte_atomic64_t *v)
 {
  v->cnt = 0;
 }
-# 264 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_atomic.h" 2
-# 19 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h" 2
+# 264 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_atomic.h" 2
+# 19 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h" 2
 
 
 
@@ -42353,7 +44841,7 @@ rte_get_tsc_hz(void);
 
 static inline uint64_t
 rte_get_tsc_cycles(void);
-# 93 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h"
+# 93 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h"
 static inline uint64_t
 rte_get_timer_cycles(void)
 {
@@ -42391,7 +44879,7 @@ rte_get_timer_hz(void)
 
 
 }
-# 138 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h"
+# 138 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h"
 extern void
 (*rte_delay_us)(unsigned int us);
 
@@ -42414,18 +44902,18 @@ rte_delay_ms(unsigned ms)
 
 
 void rte_delay_us_block(unsigned int us);
-# 168 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h"
+# 168 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h"
 void __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_delay_us_sleep(unsigned int us);
-# 178 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h"
+# 178 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_cycles.h"
 void rte_delay_us_callback_register(void(*userfunc)(unsigned int));
-# 14 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_cycles.h" 2
+# 14 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_cycles.h" 2
 
 
 
 extern int rte_cycles_vmware_tsc_map;
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_branch_prediction.h" 1
-# 19 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_cycles.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_branch_prediction.h" 1
+# 19 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_cycles.h" 2
 
 
 
@@ -42468,7 +44956,7 @@ rte_rdtsc_precise(void)
 
 static inline uint64_t
 rte_get_tsc_cycles(void) { return rte_rdtsc(); }
-# 19 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
+# 19 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_spinlock.h" 2
 
 
 
@@ -42625,12 +45113,12 @@ rte_spinlock_recursive_trylock_tm(rte_spinlock_recursive_t *slr)
 
  return rte_spinlock_recursive_trylock(slr);
 }
-# 45 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 2
+# 45 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 2
 
 
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h" 1
-# 15 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h" 1
+# 15 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 1 3 4
 # 149 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 3 4
 
@@ -42642,10 +45130,10 @@ typedef struct {
   long double __max_align_ld __attribute__((__aligned__(__alignof__(long double))));
 # 437 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 3 4
 } max_align_t;
-# 16 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h" 2
-# 27 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 16 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h" 2
+# 27 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 
-# 27 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 27 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 struct rte_memseg_list;
 
 __extension__
@@ -42661,9 +45149,9 @@ enum rte_page_sizes {
  RTE_PGSIZE_4G = 1ULL << 32,
  RTE_PGSIZE_16G = 1ULL << 34,
 };
-# 71 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 71 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 typedef uint64_t phys_addr_t;
-# 80 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 80 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 typedef uint64_t rte_iova_t;
 
 
@@ -42690,89 +45178,76 @@ struct rte_memseg {
  uint32_t nrank;
  uint32_t flags;
 } __attribute__((__packed__));
-# 115 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 115 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int rte_mem_lock_page(const void *virt);
-# 127 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 127 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 phys_addr_t rte_mem_virt2phy(const void *virt);
-# 137 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 137 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 rte_iova_t rte_mem_virt2iova(const void *virt);
-# 151 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 151 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) void *
 rte_mem_iova2virt(rte_iova_t iova);
-# 165 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 165 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) struct rte_memseg *
 rte_mem_virt2memseg(const void *virt, const struct rte_memseg_list *msl);
-# 176 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 176 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) struct rte_memseg_list *
 rte_mem_virt2memseg_list(const void *virt);
-# 186 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 186 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 typedef int (*rte_memseg_walk_t)(const struct rte_memseg_list *msl,
   const struct rte_memseg *ms, void *arg);
-# 198 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 198 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 typedef int (*rte_memseg_contig_walk_t)(const struct rte_memseg_list *msl,
   const struct rte_memseg *ms, size_t len, void *arg);
-# 209 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 209 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 typedef int (*rte_memseg_list_walk_t)(const struct rte_memseg_list *msl,
   void *arg);
-# 230 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 230 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_memseg_walk(rte_memseg_walk_t func, void *arg);
-# 251 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 251 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_memseg_contig_walk(rte_memseg_contig_walk_t func, void *arg);
-# 272 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 272 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_memseg_list_walk(rte_memseg_list_walk_t func, void *arg);
-# 290 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 290 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_memseg_walk_thread_unsafe(rte_memseg_walk_t func, void *arg);
-# 308 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 308 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_memseg_contig_walk_thread_unsafe(rte_memseg_contig_walk_t func, void *arg);
-# 326 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 326 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_memseg_list_walk_thread_unsafe(rte_memseg_list_walk_t func, void *arg);
-# 350 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 350 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_memseg_get_fd(const struct rte_memseg *ms);
-# 374 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 374 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_memseg_get_fd_thread_unsafe(const struct rte_memseg *ms);
-# 398 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 398 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_memseg_get_fd_offset(const struct rte_memseg *ms, size_t *offset);
-# 422 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 422 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_memseg_get_fd_offset_thread_unsafe(const struct rte_memseg *ms,
   size_t *offset);
-# 463 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
-int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
-rte_extmem_register(void *va_addr, size_t len, rte_iova_t iova_addrs[],
-  unsigned int n_pages, size_t page_sz);
-# 493 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
-int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
-rte_extmem_unregister(void *va_addr, size_t len);
-# 519 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
-int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
-rte_extmem_attach(void *va_addr, size_t len);
-# 545 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
-int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
-rte_extmem_detach(void *va_addr, size_t len);
-# 557 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 435 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 void rte_dump_physmem_layout(FILE *f);
-# 568 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 446 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 uint64_t rte_eal_get_physmem_size(void);
-# 577 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 455 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 unsigned rte_memory_get_nchannel(void);
-# 586 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 464 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 unsigned rte_memory_get_nrank(void);
-# 598 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 476 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) rte_mem_check_dma_mask(uint8_t maskbits);
-# 616 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 494 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) rte_mem_check_dma_mask_thread_unsafe(uint8_t maskbits);
-# 626 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 504 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 void __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) rte_mem_set_dma_mask(uint8_t maskbits);
-# 637 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 515 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int rte_eal_using_phys_addrs(void);
 
 
@@ -42792,29 +45267,29 @@ enum rte_mem_event {
 
 typedef void (*rte_mem_event_callback_t)(enum rte_mem_event event_type,
   const void *addr, size_t len, void *arg);
-# 682 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 560 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_mem_event_callback_register(const char *name, rte_mem_event_callback_t clb,
   void *arg);
-# 700 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 578 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_mem_event_callback_unregister(const char *name, void *arg);
-# 712 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 590 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 typedef int (*rte_mem_alloc_validator_t)(int socket_id,
   size_t cur_limit, size_t new_len);
-# 749 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 627 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_mem_alloc_validator_register(const char *name,
   rte_mem_alloc_validator_t clb, int socket_id, size_t limit);
-# 767 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memory.h"
+# 645 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memory.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_mem_alloc_validator_unregister(const char *name, int socket_id);
-# 49 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 2
+# 49 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 2
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 1
-# 49 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memzone.h" 1
-# 49 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memzone.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 1
+# 49 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memzone.h" 1
+# 49 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memzone.h"
 struct rte_memzone {
 
 
@@ -42838,21 +45313,21 @@ struct rte_memzone {
 
  uint32_t flags;
 } __attribute__((__packed__));
-# 131 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memzone.h"
+# 131 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memzone.h"
 const struct rte_memzone *rte_memzone_reserve(const char *name,
            size_t len, int socket_id,
            unsigned flags);
-# 197 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memzone.h"
+# 197 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memzone.h"
 const struct rte_memzone *rte_memzone_reserve_aligned(const char *name,
    size_t len, int socket_id,
    unsigned flags, unsigned align);
-# 269 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memzone.h"
+# 269 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memzone.h"
 const struct rte_memzone *rte_memzone_reserve_bounded(const char *name,
    size_t len, int socket_id,
    unsigned flags, unsigned align, unsigned bound);
-# 282 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memzone.h"
+# 282 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memzone.h"
 int rte_memzone_free(const struct rte_memzone *mz);
-# 295 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memzone.h"
+# 295 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memzone.h"
 const struct rte_memzone *rte_memzone_lookup(const char *name);
 
 
@@ -42862,10 +45337,10 @@ const struct rte_memzone *rte_memzone_lookup(const char *name);
 
 
 void rte_memzone_dump(FILE *f);
-# 313 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_memzone.h"
+# 313 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_memzone.h"
 void rte_memzone_walk(void (*func)(const struct rte_memzone *, void *arg),
         void *arg);
-# 50 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 2
+# 50 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 2
 
 
 
@@ -42888,7 +45363,7 @@ struct rte_ring_headtail {
  volatile uint32_t tail;
  uint32_t single;
 };
-# 83 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 83 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 struct rte_ring {
 
 
@@ -42913,12 +45388,12 @@ struct rte_ring {
  struct rte_ring_headtail cons __attribute__((__aligned__(64)));
  char pad2 __attribute__((__aligned__(64)));
 };
-# 141 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 141 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 ssize_t rte_ring_get_memsize(unsigned count);
-# 177 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 177 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 int rte_ring_init(struct rte_ring *r, const char *name, unsigned count,
  unsigned flags);
-# 219 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 219 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 struct rte_ring *rte_ring_create(const char *name, unsigned count,
      int socket_id, unsigned flags);
 
@@ -42928,11 +45403,11 @@ struct rte_ring *rte_ring_create(const char *name, unsigned count,
 
 
 void rte_ring_free(struct rte_ring *r);
-# 237 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 237 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 void rte_ring_dump(FILE *f, const struct rte_ring *r);
-# 313 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring_generic.h" 1
-# 13 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring_generic.h"
+# 313 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring_generic.h" 1
+# 13 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring_generic.h"
 static inline __attribute__((always_inline)) void
 update_tail(struct rte_ring_headtail *ht, uint32_t old_val, uint32_t new_val,
   uint32_t single, uint32_t enqueue)
@@ -42951,7 +45426,7 @@ update_tail(struct rte_ring_headtail *ht, uint32_t old_val, uint32_t new_val,
 
  ht->tail = new_val;
 }
-# 55 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring_generic.h"
+# 55 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring_generic.h"
 static inline __attribute__((always_inline)) unsigned int
 __rte_ring_move_prod_head(struct rte_ring *r, unsigned int is_sp,
   unsigned int n, enum rte_ring_queue_behavior behavior,
@@ -42998,7 +45473,7 @@ __rte_ring_move_prod_head(struct rte_ring *r, unsigned int is_sp,
  } while (__builtin_expect(!!(success == 0), 0));
  return n;
 }
-# 125 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring_generic.h"
+# 125 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring_generic.h"
 static inline __attribute__((always_inline)) unsigned int
 __rte_ring_move_cons_head(struct rte_ring *r, unsigned int is_sc,
   unsigned int n, enum rte_ring_queue_behavior behavior,
@@ -43043,8 +45518,8 @@ __rte_ring_move_cons_head(struct rte_ring *r, unsigned int is_sc,
  } while (__builtin_expect(!!(success == 0), 0));
  return n;
 }
-# 314 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 2
-# 336 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 314 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 2
+# 336 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned int
 __rte_ring_do_enqueue(struct rte_ring *r, void * const *obj_table,
    unsigned int n, enum rte_ring_queue_behavior behavior,
@@ -43063,14 +45538,14 @@ __rte_ring_do_enqueue(struct rte_ring *r, void * const *obj_table,
  update_tail(&r->prod, prod_head, prod_next, is_sp, 1);
 end:
  if (free_space != 
-# 353 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 353 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                   ((void *)0)
-# 353 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 353 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                       )
   *free_space = free_entries - n;
  return n;
 }
-# 378 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 378 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned int
 __rte_ring_do_dequeue(struct rte_ring *r, void **obj_table,
    unsigned int n, enum rte_ring_queue_behavior behavior,
@@ -43090,14 +45565,14 @@ __rte_ring_do_dequeue(struct rte_ring *r, void **obj_table,
 
 end:
  if (available != 
-# 396 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 396 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                  ((void *)0)
-# 396 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 396 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                      )
   *available = entries - n;
  return n;
 }
-# 419 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 419 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned int
 rte_ring_mp_enqueue_bulk(struct rte_ring *r, void * const *obj_table,
     unsigned int n, unsigned int *free_space)
@@ -43105,7 +45580,7 @@ rte_ring_mp_enqueue_bulk(struct rte_ring *r, void * const *obj_table,
  return __rte_ring_do_enqueue(r, obj_table, n, RTE_RING_QUEUE_FIXED,
    0, free_space);
 }
-# 442 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 442 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned int
 rte_ring_sp_enqueue_bulk(struct rte_ring *r, void * const *obj_table,
     unsigned int n, unsigned int *free_space)
@@ -43113,7 +45588,7 @@ rte_ring_sp_enqueue_bulk(struct rte_ring *r, void * const *obj_table,
  return __rte_ring_do_enqueue(r, obj_table, n, RTE_RING_QUEUE_FIXED,
    1, free_space);
 }
-# 469 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 469 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned int
 rte_ring_enqueue_bulk(struct rte_ring *r, void * const *obj_table,
         unsigned int n, unsigned int *free_space)
@@ -43121,49 +45596,49 @@ rte_ring_enqueue_bulk(struct rte_ring *r, void * const *obj_table,
  return __rte_ring_do_enqueue(r, obj_table, n, RTE_RING_QUEUE_FIXED,
    r->prod.single, free_space);
 }
-# 491 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 491 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) int
 rte_ring_mp_enqueue(struct rte_ring *r, void *obj)
 {
  return rte_ring_mp_enqueue_bulk(r, &obj, 1, 
-# 494 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 494 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                                             ((void *)0)
-# 494 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 494 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                                                 ) ? 0 : -
-# 494 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 494 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                                                          105
-# 494 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 494 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                                                                 ;
 }
-# 508 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 508 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) int
 rte_ring_sp_enqueue(struct rte_ring *r, void *obj)
 {
  return rte_ring_sp_enqueue_bulk(r, &obj, 1, 
-# 511 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 511 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                                             ((void *)0)
-# 511 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 511 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                                                 ) ? 0 : -
-# 511 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 511 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                                                          105
-# 511 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 511 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                                                                 ;
 }
-# 529 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 529 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) int
 rte_ring_enqueue(struct rte_ring *r, void *obj)
 {
  return rte_ring_enqueue_bulk(r, &obj, 1, 
-# 532 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 532 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                                          ((void *)0)
-# 532 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 532 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                                              ) ? 0 : -
-# 532 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 532 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                                                       105
-# 532 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 532 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                                                              ;
 }
-# 553 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 553 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned int
 rte_ring_mc_dequeue_bulk(struct rte_ring *r, void **obj_table,
   unsigned int n, unsigned int *available)
@@ -43171,7 +45646,7 @@ rte_ring_mc_dequeue_bulk(struct rte_ring *r, void **obj_table,
  return __rte_ring_do_dequeue(r, obj_table, n, RTE_RING_QUEUE_FIXED,
    0, available);
 }
-# 577 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 577 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned int
 rte_ring_sc_dequeue_bulk(struct rte_ring *r, void **obj_table,
   unsigned int n, unsigned int *available)
@@ -43179,7 +45654,7 @@ rte_ring_sc_dequeue_bulk(struct rte_ring *r, void **obj_table,
  return __rte_ring_do_dequeue(r, obj_table, n, RTE_RING_QUEUE_FIXED,
    1, available);
 }
-# 604 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 604 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned int
 rte_ring_dequeue_bulk(struct rte_ring *r, void **obj_table, unsigned int n,
   unsigned int *available)
@@ -43187,49 +45662,49 @@ rte_ring_dequeue_bulk(struct rte_ring *r, void **obj_table, unsigned int n,
  return __rte_ring_do_dequeue(r, obj_table, n, RTE_RING_QUEUE_FIXED,
     r->cons.single, available);
 }
-# 627 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 627 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) int
 rte_ring_mc_dequeue(struct rte_ring *r, void **obj_p)
 {
  return rte_ring_mc_dequeue_bulk(r, obj_p, 1, 
-# 630 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 630 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                                              ((void *)0)
-# 630 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 630 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                                                  ) ? 0 : -
-# 630 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 630 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                                                            2
-# 630 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 630 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                                                                  ;
 }
-# 645 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 645 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) int
 rte_ring_sc_dequeue(struct rte_ring *r, void **obj_p)
 {
  return rte_ring_sc_dequeue_bulk(r, obj_p, 1, 
-# 648 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 648 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                                              ((void *)0)
-# 648 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 648 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                                                  ) ? 0 : -
-# 648 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 648 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                                                           2
-# 648 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 648 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                                                                 ;
 }
-# 667 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 667 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) int
 rte_ring_dequeue(struct rte_ring *r, void **obj_p)
 {
  return rte_ring_dequeue_bulk(r, obj_p, 1, 
-# 670 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 670 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                                           ((void *)0)
-# 670 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 670 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                                               ) ? 0 : -
-# 670 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
+# 670 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h" 3 4
                                                        2
-# 670 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 670 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
                                                              ;
 }
-# 681 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 681 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline unsigned
 rte_ring_count(const struct rte_ring *r)
 {
@@ -43238,31 +45713,31 @@ rte_ring_count(const struct rte_ring *r)
  uint32_t count = (prod_tail - cons_tail) & r->mask;
  return (count > r->capacity) ? r->capacity : count;
 }
-# 698 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 698 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline unsigned
 rte_ring_free_count(const struct rte_ring *r)
 {
  return r->capacity - rte_ring_count(r);
 }
-# 713 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 713 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline int
 rte_ring_full(const struct rte_ring *r)
 {
  return rte_ring_free_count(r) == 0;
 }
-# 728 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 728 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline int
 rte_ring_empty(const struct rte_ring *r)
 {
  return rte_ring_count(r) == 0;
 }
-# 744 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 744 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline unsigned int
 rte_ring_get_size(const struct rte_ring *r)
 {
  return r->size;
 }
-# 758 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 758 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline unsigned int
 rte_ring_get_capacity(const struct rte_ring *r)
 {
@@ -43276,9 +45751,9 @@ rte_ring_get_capacity(const struct rte_ring *r)
 
 
 void rte_ring_list_dump(FILE *f);
-# 782 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 782 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 struct rte_ring *rte_ring_lookup(const char *name);
-# 802 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 802 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned
 rte_ring_mp_enqueue_burst(struct rte_ring *r, void * const *obj_table,
     unsigned int n, unsigned int *free_space)
@@ -43286,7 +45761,7 @@ rte_ring_mp_enqueue_burst(struct rte_ring *r, void * const *obj_table,
  return __rte_ring_do_enqueue(r, obj_table, n,
    RTE_RING_QUEUE_VARIABLE, 0, free_space);
 }
-# 825 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 825 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned
 rte_ring_sp_enqueue_burst(struct rte_ring *r, void * const *obj_table,
     unsigned int n, unsigned int *free_space)
@@ -43294,7 +45769,7 @@ rte_ring_sp_enqueue_burst(struct rte_ring *r, void * const *obj_table,
  return __rte_ring_do_enqueue(r, obj_table, n,
    RTE_RING_QUEUE_VARIABLE, 1, free_space);
 }
-# 852 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 852 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned
 rte_ring_enqueue_burst(struct rte_ring *r, void * const *obj_table,
         unsigned int n, unsigned int *free_space)
@@ -43302,7 +45777,7 @@ rte_ring_enqueue_burst(struct rte_ring *r, void * const *obj_table,
  return __rte_ring_do_enqueue(r, obj_table, n, RTE_RING_QUEUE_VARIABLE,
    r->prod.single, free_space);
 }
-# 880 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 880 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned
 rte_ring_mc_dequeue_burst(struct rte_ring *r, void **obj_table,
   unsigned int n, unsigned int *available)
@@ -43310,7 +45785,7 @@ rte_ring_mc_dequeue_burst(struct rte_ring *r, void **obj_table,
  return __rte_ring_do_dequeue(r, obj_table, n,
    RTE_RING_QUEUE_VARIABLE, 0, available);
 }
-# 905 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 905 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned
 rte_ring_sc_dequeue_burst(struct rte_ring *r, void **obj_table,
   unsigned int n, unsigned int *available)
@@ -43318,7 +45793,7 @@ rte_ring_sc_dequeue_burst(struct rte_ring *r, void **obj_table,
  return __rte_ring_do_dequeue(r, obj_table, n,
    RTE_RING_QUEUE_VARIABLE, 1, available);
 }
-# 932 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ring.h"
+# 932 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ring.h"
 static inline __attribute__((always_inline)) unsigned
 rte_ring_dequeue_burst(struct rte_ring *r, void **obj_table,
   unsigned int n, unsigned int *available)
@@ -43327,8 +45802,8 @@ rte_ring_dequeue_burst(struct rte_ring *r, void **obj_table,
     RTE_RING_QUEUE_VARIABLE,
     r->cons.single, available);
 }
-# 51 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 2
-# 83 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 51 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 2
+# 83 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 struct rte_mempool_cache {
  uint32_t size;
  uint32_t flushthresh;
@@ -43350,16 +45825,16 @@ struct rte_mempool_objsz {
  uint32_t total_size;
 
 };
-# 133 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 133 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 struct rte_mempool_objhdr {
  
-# 134 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 134 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
 struct { struct 
-# 134 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 134 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 rte_mempool_objhdr 
-# 134 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 134 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
 *stqe_next; } 
-# 134 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 134 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
                                  next;
  struct rte_mempool *mp;
 
@@ -43376,39 +45851,39 @@ rte_mempool_objhdr
 
 
 
-# 149 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 149 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
 struct 
-# 149 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 149 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 rte_mempool_objhdr_list 
-# 149 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 149 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
 { struct 
-# 149 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 149 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 rte_mempool_objhdr 
-# 149 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 149 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
 *stqh_first; struct 
-# 149 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 149 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 rte_mempool_objhdr 
-# 149 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 149 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
 **stqh_last; }
-# 149 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 149 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
                                                        ;
-# 168 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 168 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 
-# 168 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 168 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
 struct 
-# 168 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 168 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 rte_mempool_memhdr_list 
-# 168 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 168 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
 { struct 
-# 168 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 168 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 rte_mempool_memhdr 
-# 168 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 168 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
 *stqh_first; struct 
-# 168 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 168 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 rte_mempool_memhdr 
-# 168 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 168 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
 **stqh_last; }
-# 168 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 168 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
                                                        ;
 
 
@@ -43425,13 +45900,13 @@ typedef void (rte_mempool_memchunk_free_cb_t)(struct rte_mempool_memhdr *memhdr,
 
 struct rte_mempool_memhdr {
  
-# 183 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 183 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
 struct { struct 
-# 183 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 183 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 rte_mempool_memhdr 
-# 183 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 183 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
 *stqe_next; } 
-# 183 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 183 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
                                  next;
  struct rte_mempool *mp;
  void *addr;
@@ -43444,7 +45919,7 @@ rte_mempool_memhdr
  rte_mempool_memchunk_free_cb_t *free_cb;
  void *opaque;
 };
-# 205 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 205 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 struct rte_mempool_info {
 
  unsigned int contig_block_size;
@@ -43499,13 +45974,13 @@ struct rte_mempool {
 
 
 } __attribute__((__aligned__(64)));
-# 311 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 311 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline struct rte_mempool_objhdr *__mempool_get_header(void *obj)
 {
  return (struct rte_mempool_objhdr *)((void*)((uintptr_t)obj - (sizeof(struct rte_mempool_objhdr))))
                                     ;
 }
-# 326 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 326 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline struct rte_mempool *rte_mempool_from_obj(void *obj)
 {
  struct rte_mempool_objhdr *hdr = __mempool_get_header(obj);
@@ -43518,13 +45993,13 @@ static inline struct rte_mempool_objtlr *__mempool_get_trailer(void *obj)
  struct rte_mempool *mp = rte_mempool_from_obj(obj);
  return (struct rte_mempool_objtlr *)((void*)((uintptr_t)(obj) + (mp->elt_size)));
 }
-# 353 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 353 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 void rte_mempool_check_cookies(const struct rte_mempool *mp,
  void * const *obj_table_const, unsigned n, int free);
-# 381 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 381 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 void rte_mempool_contig_blocks_check_cookies(const struct rte_mempool *mp,
  void * const *first_obj_table_const, unsigned int n, int free);
-# 407 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 407 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 typedef int (*rte_mempool_alloc_t)(struct rte_mempool *mp);
 
 
@@ -43557,18 +46032,18 @@ typedef int (*rte_mempool_dequeue_contig_blocks_t)(struct rte_mempool *mp,
 
 
 typedef unsigned (*rte_mempool_get_count)(const struct rte_mempool *mp);
-# 463 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 463 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 typedef ssize_t (*rte_mempool_calc_mem_size_t)(const struct rte_mempool *mp,
   uint32_t obj_num, uint32_t pg_shift,
   size_t *min_chunk_size, size_t *align);
-# 486 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 486 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 ssize_t rte_mempool_op_calc_mem_size_default(const struct rte_mempool *mp,
   uint32_t obj_num, uint32_t pg_shift,
   size_t *min_chunk_size, size_t *align);
-# 502 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 502 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 typedef void (rte_mempool_populate_obj_cb_t)(struct rte_mempool *mp,
   void *opaque, void *vaddr, rte_iova_t iova);
-# 533 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 533 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 typedef int (*rte_mempool_populate_t)(struct rte_mempool *mp,
   unsigned int max_objs,
   void *vaddr, rte_iova_t iova, size_t len,
@@ -43620,7 +46095,7 @@ struct rte_mempool_ops {
 
  rte_mempool_dequeue_contig_blocks_t dequeue_contig_blocks;
 } __attribute__((__aligned__(64)));
-# 596 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 596 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 struct rte_mempool_ops_table {
  rte_spinlock_t sl;
  uint32_t num_ops;
@@ -43632,7 +46107,7 @@ struct rte_mempool_ops_table {
 
 
 extern struct rte_mempool_ops_table rte_mempool_ops_table;
-# 617 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 617 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline struct rte_mempool_ops *
 rte_mempool_get_ops(int ops_index)
 {
@@ -43640,10 +46115,10 @@ rte_mempool_get_ops(int ops_index)
 
  return &rte_mempool_ops_table.ops[ops_index];
 }
-# 634 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 634 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 int
 rte_mempool_ops_alloc(struct rte_mempool *mp);
-# 650 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 650 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline int
 rte_mempool_ops_dequeue_bulk(struct rte_mempool *mp,
   void **obj_table, unsigned n)
@@ -43653,7 +46128,7 @@ rte_mempool_ops_dequeue_bulk(struct rte_mempool *mp,
  ops = rte_mempool_get_ops(mp->ops_index);
  return ops->dequeue(mp, obj_table, n);
 }
-# 673 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 673 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline int
 rte_mempool_ops_dequeue_contig_blocks(struct rte_mempool *mp,
   void **first_obj_table, unsigned int n)
@@ -43664,7 +46139,7 @@ rte_mempool_ops_dequeue_contig_blocks(struct rte_mempool *mp,
  do {} while (0);
  return ops->dequeue_contig_blocks(mp, first_obj_table, n);
 }
-# 697 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 697 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline int
 rte_mempool_ops_enqueue_bulk(struct rte_mempool *mp, void * const *obj_table,
   unsigned n)
@@ -43674,19 +46149,19 @@ rte_mempool_ops_enqueue_bulk(struct rte_mempool *mp, void * const *obj_table,
  ops = rte_mempool_get_ops(mp->ops_index);
  return ops->enqueue(mp, obj_table, n);
 }
-# 715 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 715 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 unsigned
 rte_mempool_ops_get_count(const struct rte_mempool *mp);
-# 737 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 737 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 ssize_t rte_mempool_ops_calc_mem_size(const struct rte_mempool *mp,
           uint32_t obj_num, uint32_t pg_shift,
           size_t *min_chunk_size, size_t *align);
-# 764 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 764 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 int rte_mempool_ops_populate(struct rte_mempool *mp, unsigned int max_objs,
         void *vaddr, rte_iova_t iova, size_t len,
         rte_mempool_populate_obj_cb_t *obj_cb,
         void *obj_cb_arg);
-# 784 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 784 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 int rte_mempool_ops_get_info(const struct rte_mempool *mp,
     struct rte_mempool_info *info);
@@ -43699,13 +46174,13 @@ int rte_mempool_ops_get_info(const struct rte_mempool *mp,
 
 void
 rte_mempool_ops_free(struct rte_mempool *mp);
-# 814 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 814 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 int
 rte_mempool_set_ops_byname(struct rte_mempool *mp, const char *name,
   void *pool_config);
-# 828 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 828 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 int rte_mempool_register_ops(const struct rte_mempool_ops *ops);
-# 847 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 847 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 typedef void (rte_mempool_obj_cb_t)(struct rte_mempool *mp,
   void *opaque, void *obj, unsigned obj_idx);
 typedef rte_mempool_obj_cb_t rte_mempool_obj_ctor_t;
@@ -43726,43 +46201,43 @@ typedef void (rte_mempool_mem_cb_t)(struct rte_mempool *mp,
 
 
 typedef void (rte_mempool_ctor_t)(struct rte_mempool *, void *);
-# 947 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 947 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 struct rte_mempool *
 rte_mempool_create(const char *name, unsigned n, unsigned elt_size,
      unsigned cache_size, unsigned private_data_size,
      rte_mempool_ctor_t *mp_init, void *mp_init_arg,
      rte_mempool_obj_cb_t *obj_init, void *obj_init_arg,
      int socket_id, unsigned flags);
-# 988 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 988 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 struct rte_mempool *
 rte_mempool_create_empty(const char *name, unsigned n, unsigned elt_size,
  unsigned cache_size, unsigned private_data_size,
  int socket_id, unsigned flags);
-# 1002 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1002 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 void
 rte_mempool_free(struct rte_mempool *mp);
-# 1032 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1032 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 int rte_mempool_populate_iova(struct rte_mempool *mp, char *vaddr,
  rte_iova_t iova, size_t len, rte_mempool_memchunk_free_cb_t *free_cb,
  void *opaque);
-# 1060 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1060 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 int
 rte_mempool_populate_virt(struct rte_mempool *mp, char *addr,
  size_t len, size_t pg_sz, rte_mempool_memchunk_free_cb_t *free_cb,
  void *opaque);
-# 1078 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1078 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 int rte_mempool_populate_default(struct rte_mempool *mp);
-# 1093 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1093 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 int rte_mempool_populate_anon(struct rte_mempool *mp);
-# 1110 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1110 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 uint32_t rte_mempool_obj_iter(struct rte_mempool *mp,
  rte_mempool_obj_cb_t *obj_cb, void *obj_cb_arg);
-# 1128 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1128 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 uint32_t rte_mempool_mem_iter(struct rte_mempool *mp,
  rte_mempool_mem_cb_t *mem_cb, void *mem_cb_arg);
-# 1139 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1139 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 void rte_mempool_dump(FILE *f, struct rte_mempool *mp);
-# 1155 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1155 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 struct rte_mempool_cache *
 rte_mempool_cache_create(uint32_t size, int socket_id);
 
@@ -43774,47 +46249,47 @@ rte_mempool_cache_create(uint32_t size, int socket_id);
 
 void
 rte_mempool_cache_free(struct rte_mempool_cache *cache);
-# 1177 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1177 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline __attribute__((always_inline)) struct rte_mempool_cache *
 rte_mempool_default_cache(struct rte_mempool *mp, unsigned lcore_id)
 {
  if (mp->cache_size == 0)
   return 
-# 1181 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 1181 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
         ((void *)0)
-# 1181 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1181 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
             ;
 
  if (lcore_id >= 128)
   return 
-# 1184 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 1184 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
         ((void *)0)
-# 1184 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1184 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
             ;
 
  return &mp->local_cache[lcore_id];
 }
-# 1197 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1197 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline __attribute__((always_inline)) void
 rte_mempool_cache_flush(struct rte_mempool_cache *cache,
    struct rte_mempool *mp)
 {
  if (cache == 
-# 1201 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 1201 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
              ((void *)0)
-# 1201 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1201 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
                  )
   cache = rte_mempool_default_cache(mp, rte_lcore_id());
  if (cache == 
-# 1203 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 1203 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
              ((void *)0) 
-# 1203 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1203 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
                   || cache->len == 0)
   return;
  rte_mempool_ops_enqueue_bulk(mp, cache->objs, cache->len);
  cache->len = 0;
 }
-# 1221 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1221 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline __attribute__((always_inline)) void
 __mempool_generic_put(struct rte_mempool *mp, void * const *obj_table,
         unsigned int n, struct rte_mempool_cache *cache)
@@ -43826,14 +46301,14 @@ __mempool_generic_put(struct rte_mempool *mp, void * const *obj_table,
 
 
  if (__builtin_expect(!!(cache == 
-# 1231 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 1231 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
     ((void *)0) 
-# 1231 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1231 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
     || n > 512), 0))
   goto ring_enqueue;
 
  cache_objs = &cache->objs[cache->len];
-# 1244 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1244 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
  rte_memcpy(&cache_objs[0], obj_table, sizeof(void *) * n);
 
  cache->len += n;
@@ -43856,7 +46331,7 @@ ring_enqueue:
  rte_mempool_ops_enqueue_bulk(mp, obj_table, n);
 
 }
-# 1280 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1280 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline __attribute__((always_inline)) void
 rte_mempool_generic_put(struct rte_mempool *mp, void * const *obj_table,
    unsigned int n, struct rte_mempool_cache *cache)
@@ -43864,7 +46339,7 @@ rte_mempool_generic_put(struct rte_mempool *mp, void * const *obj_table,
  do {} while(0);
  __mempool_generic_put(mp, obj_table, n, cache);
 }
-# 1302 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1302 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline __attribute__((always_inline)) void
 rte_mempool_put_bulk(struct rte_mempool *mp, void * const *obj_table,
        unsigned int n)
@@ -43873,13 +46348,13 @@ rte_mempool_put_bulk(struct rte_mempool *mp, void * const *obj_table,
  cache = rte_mempool_default_cache(mp, rte_lcore_id());
  rte_mempool_generic_put(mp, obj_table, n, cache);
 }
-# 1323 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1323 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline __attribute__((always_inline)) void
 rte_mempool_put(struct rte_mempool *mp, void *obj)
 {
  rte_mempool_put_bulk(mp, &obj, 1);
 }
-# 1343 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1343 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline __attribute__((always_inline)) int
 __mempool_generic_get(struct rte_mempool *mp, void **obj_table,
         unsigned int n, struct rte_mempool_cache *cache)
@@ -43890,9 +46365,9 @@ __mempool_generic_get(struct rte_mempool *mp, void **obj_table,
 
 
  if (__builtin_expect(!!(cache == 
-# 1352 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
+# 1352 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h" 3 4
     ((void *)0) 
-# 1352 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1352 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
     || n >= cache->size), 0))
   goto ring_dequeue;
 
@@ -43941,7 +46416,7 @@ ring_dequeue:
 
  return ret;
 }
-# 1421 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1421 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline __attribute__((always_inline)) int
 rte_mempool_generic_get(struct rte_mempool *mp, void **obj_table,
    unsigned int n, struct rte_mempool_cache *cache)
@@ -43952,7 +46427,7 @@ rte_mempool_generic_get(struct rte_mempool *mp, void **obj_table,
   do {} while(0);
  return ret;
 }
-# 1454 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1454 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline __attribute__((always_inline)) int
 rte_mempool_get_bulk(struct rte_mempool *mp, void **obj_table, unsigned int n)
 {
@@ -43960,13 +46435,13 @@ rte_mempool_get_bulk(struct rte_mempool *mp, void **obj_table, unsigned int n)
  cache = rte_mempool_default_cache(mp, rte_lcore_id());
  return rte_mempool_generic_get(mp, obj_table, n, cache);
 }
-# 1482 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1482 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline __attribute__((always_inline)) int
 rte_mempool_get(struct rte_mempool *mp, void **obj_p)
 {
  return rte_mempool_get_bulk(mp, obj_p, 1);
 }
-# 1512 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1512 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline __attribute__((always_inline)) int
 __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_mempool_get_contig_blocks(struct rte_mempool *mp,
@@ -43985,24 +46460,24 @@ rte_mempool_get_contig_blocks(struct rte_mempool *mp,
 
  return ret;
 }
-# 1543 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1543 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 unsigned int rte_mempool_avail_count(const struct rte_mempool *mp);
-# 1557 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1557 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 unsigned int
 rte_mempool_in_use_count(const struct rte_mempool *mp);
-# 1573 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1573 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline int
 rte_mempool_full(const struct rte_mempool *mp)
 {
  return !!(rte_mempool_avail_count(mp) == mp->size);
 }
-# 1592 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1592 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline int
 rte_mempool_empty(const struct rte_mempool *mp)
 {
  return !!(rte_mempool_avail_count(mp) == 0);
 }
-# 1608 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1608 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline rte_iova_t
 rte_mempool_virt2iova(const void *elt)
 {
@@ -44011,9 +46486,9 @@ rte_mempool_virt2iova(const void *elt)
                ;
  return hdr->iova;
 }
-# 1627 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1627 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 void rte_mempool_audit(struct rte_mempool *mp);
-# 1637 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1637 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 static inline void *rte_mempool_get_priv(struct rte_mempool *mp)
 {
  return (char *)mp +
@@ -44027,21 +46502,21 @@ static inline void *rte_mempool_get_priv(struct rte_mempool *mp)
 
 
 void rte_mempool_list_dump(FILE *f);
-# 1663 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1663 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 struct rte_mempool *rte_mempool_lookup(const char *name);
-# 1682 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1682 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 uint32_t rte_mempool_calc_obj_size(uint32_t elt_size, uint32_t flags,
  struct rte_mempool_objsz *sz);
-# 1693 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mempool.h"
+# 1693 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mempool.h"
 void rte_mempool_walk(void (*func)(struct rte_mempool *, void *arg),
         void *arg);
-# 39 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 2
+# 39 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 2
 
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_prefetch.h" 1
-# 13 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_prefetch.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_prefetch.h" 1
-# 25 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_prefetch.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_prefetch.h" 1
+# 13 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_prefetch.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_prefetch.h" 1
+# 25 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_prefetch.h"
 static inline void rte_prefetch0(const volatile void *p);
 
 
@@ -44058,9 +46533,9 @@ static inline void rte_prefetch1(const volatile void *p);
 
 
 static inline void rte_prefetch2(const volatile void *p);
-# 52 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_prefetch.h"
+# 52 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_prefetch.h"
 static inline void rte_prefetch_non_temporal(const volatile void *p);
-# 14 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_prefetch.h" 2
+# 14 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_prefetch.h" 2
 
 static inline void rte_prefetch0(const volatile void *p)
 {
@@ -44081,38 +46556,38 @@ static inline void rte_prefetch_non_temporal(const volatile void *p)
 {
  __asm__ volatile ("prefetchnta %[p]" : : [p] "m" (*(const volatile char *)p));
 }
-# 42 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 2
+# 42 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 2
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h" 1
-# 65 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h" 1
+# 65 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
 # 1 "/usr/lib/gcc/x86_64-linux-gnu/7/include/stddef.h" 1 3 4
-# 66 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h" 2
-# 699 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
+# 66 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h" 2
+# 699 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
 const char *rte_get_ptype_l2_name(uint32_t ptype);
-# 709 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
+# 709 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
 const char *rte_get_ptype_l3_name(uint32_t ptype);
-# 719 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
+# 719 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
 const char *rte_get_ptype_l4_name(uint32_t ptype);
-# 729 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
+# 729 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
 const char *rte_get_ptype_tunnel_name(uint32_t ptype);
-# 739 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
+# 739 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
 const char *rte_get_ptype_inner_l2_name(uint32_t ptype);
-# 749 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
+# 749 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
 const char *rte_get_ptype_inner_l3_name(uint32_t ptype);
-# 759 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
+# 759 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
 const char *rte_get_ptype_inner_l4_name(uint32_t ptype);
-# 774 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
+# 774 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf_ptype.h"
 int rte_get_ptype_name(uint32_t ptype, char *buf, size_t buflen);
-# 44 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 2
-# 409 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 44 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 2
+# 409 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 const char *rte_get_rx_ol_flag_name(uint64_t mask);
-# 423 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 423 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 int rte_get_rx_ol_flag_list(uint64_t mask, char *buf, size_t buflen);
-# 435 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 435 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 const char *rte_get_tx_ol_flag_name(uint64_t mask);
-# 449 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 449 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 int rte_get_tx_ol_flag_list(uint64_t mask, char *buf, size_t buflen);
-# 463 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 463 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 __extension__
 typedef void *MARKER[0];
 __extension__
@@ -44120,17 +46595,6 @@ typedef uint8_t MARKER8[0];
 __extension__
 typedef uint64_t MARKER64[0];
 
-
-struct rte_mbuf_sched {
- uint32_t queue_id;
- uint8_t traffic_class;
-
-
-
- uint8_t color;
-
- uint16_t reserved;
-};
 
 
 
@@ -44154,7 +46618,7 @@ struct rte_mbuf {
 
  MARKER64 rearm_data;
  uint16_t data_off;
-# 514 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 503 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 
  union {
   rte_atomic16_t refcnt_atomic;
@@ -44171,7 +46635,7 @@ struct rte_mbuf {
 
 
  MARKER rx_descriptor_fields1;
-# 538 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 527 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 
  union {
   uint32_t packet_type;
@@ -44222,17 +46686,14 @@ struct rte_mbuf {
 
 
    } fdir;
-   struct rte_mbuf_sched sched;
-
    struct {
-    uint32_t reserved1;
-    uint16_t reserved2;
-    uint16_t txq;
+    uint32_t lo;
+    uint32_t hi;
 
 
 
 
-   } txadapter;
+   } sched;
 
    uint32_t usr;
   } hash;
@@ -44323,13 +46784,13 @@ struct rte_mbuf_ext_shared_info {
  void *fcb_opaque;
  rte_atomic16_t refcnt_atomic;
 };
-# 703 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 689 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline void
 rte_mbuf_prefetch_part1(struct rte_mbuf *m)
 {
  rte_prefetch0(&m->cacheline0);
 }
-# 720 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 706 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline void
 rte_mbuf_prefetch_part2(struct rte_mbuf *m)
 {
@@ -44342,7 +46803,7 @@ rte_mbuf_prefetch_part2(struct rte_mbuf *m)
 
 
 static inline uint16_t rte_pktmbuf_priv_size(struct rte_mempool *mp);
-# 741 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 727 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline rte_iova_t
 rte_mbuf_data_iova(const struct rte_mbuf *mb)
 {
@@ -44355,7 +46816,7 @@ rte_mbuf_data_dma_addr(const struct rte_mbuf *mb)
 {
  return rte_mbuf_data_iova(mb);
 }
-# 766 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 752 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline rte_iova_t
 rte_mbuf_data_iova_default(const struct rte_mbuf *mb)
 {
@@ -44368,54 +46829,38 @@ rte_mbuf_data_dma_addr_default(const struct rte_mbuf *mb)
 {
  return rte_mbuf_data_iova_default(mb);
 }
-# 787 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 773 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline struct rte_mbuf *
 rte_mbuf_from_indirect(struct rte_mbuf *mi)
 {
  return (struct rte_mbuf *)((void*)((uintptr_t)mi->buf_addr - (sizeof(*mi) + mi->priv_size)));
 }
-# 813 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
-static inline char * __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
-rte_mbuf_buf_addr(struct rte_mbuf *mb, struct rte_mempool *mp)
-{
- return (char *)mb + sizeof(*mb) + rte_pktmbuf_priv_size(mp);
-}
-# 830 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
-static inline char * __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
-rte_mbuf_data_addr_default(struct rte_mbuf *mb)
-{
- return rte_mbuf_buf_addr(mb, mb->pool) + 128;
-}
-# 849 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 787 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline char *
 rte_mbuf_to_baddr(struct rte_mbuf *md)
 {
-
-
-
  char *buffer_addr;
  buffer_addr = (char *)md + sizeof(*md) + rte_pktmbuf_priv_size(md->pool);
  return buffer_addr;
-
 }
-# 873 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 807 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline void * __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_mbuf_to_priv(struct rte_mbuf *m)
 {
  return ((void*)((uintptr_t)(m) + (sizeof(struct rte_mbuf))));
 }
-# 910 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 850 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 struct rte_pktmbuf_pool_private {
  uint16_t mbuf_data_room_size;
  uint16_t mbuf_priv_size;
 };
-# 936 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 876 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline uint16_t
 rte_mbuf_refcnt_read(const struct rte_mbuf *m)
 {
  return (uint16_t)(rte_atomic16_read(&m->refcnt_atomic));
 }
-# 949 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 889 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline void
 rte_mbuf_refcnt_set(struct rte_mbuf *m, uint16_t new_value)
 {
@@ -44428,7 +46873,7 @@ __rte_mbuf_refcnt_update(struct rte_mbuf *m, int16_t value)
 {
  return (uint16_t)(rte_atomic16_add_return(&m->refcnt_atomic, value));
 }
-# 971 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 911 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline uint16_t
 rte_mbuf_refcnt_update(struct rte_mbuf *m, int16_t value)
 {
@@ -44447,20 +46892,20 @@ rte_mbuf_refcnt_update(struct rte_mbuf *m, int16_t value)
 
  return __rte_mbuf_refcnt_update(m, value);
 }
-# 1037 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 977 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline uint16_t
 rte_mbuf_ext_refcnt_read(const struct rte_mbuf_ext_shared_info *shinfo)
 {
  return (uint16_t)(rte_atomic16_read(&shinfo->refcnt_atomic));
 }
-# 1051 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 991 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline void
 rte_mbuf_ext_refcnt_set(struct rte_mbuf_ext_shared_info *shinfo,
  uint16_t new_value)
 {
  rte_atomic16_set(&shinfo->refcnt_atomic, (int16_t)new_value);
 }
-# 1069 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1009 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline uint16_t
 rte_mbuf_ext_refcnt_update(struct rte_mbuf_ext_shared_info *shinfo,
  int16_t value)
@@ -44473,28 +46918,24 @@ rte_mbuf_ext_refcnt_update(struct rte_mbuf_ext_shared_info *shinfo,
 
  return (uint16_t)rte_atomic16_add_return(&shinfo->refcnt_atomic, value);
 }
-# 1101 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1041 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 void
 rte_mbuf_sanity_check(const struct rte_mbuf *m, int is_header);
-# 1123 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
-__attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
-int rte_mbuf_check(const struct rte_mbuf *m, int is_header,
-     const char **reason);
-# 1153 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1070 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline struct rte_mbuf *rte_mbuf_raw_alloc(struct rte_mempool *mp)
 {
  struct rte_mbuf *m;
 
  if (rte_mempool_get(mp, (void **)&m) < 0)
   return 
-# 1158 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1075 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
         ((void *)0)
-# 1158 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1075 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
             ;
  do { do {} while (0); do {} while (0); do {} while (0); do { } while (0); } while (0);
  return m;
 }
-# 1177 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1094 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline __attribute__((always_inline)) void
 rte_mbuf_raw_free(struct rte_mbuf *m)
 {
@@ -44505,22 +46946,22 @@ rte_mbuf_raw_free(struct rte_mbuf *m)
  do { } while (0);
  rte_mempool_put(m->pool, m);
 }
-# 1207 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1124 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 void rte_pktmbuf_init(struct rte_mempool *mp, void *opaque_arg,
         void *m, unsigned i);
-# 1228 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1145 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 void rte_pktmbuf_pool_init(struct rte_mempool *mp, void *opaque_arg);
-# 1264 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1181 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 struct rte_mempool *
 rte_pktmbuf_pool_create(const char *name, unsigned n,
  unsigned cache_size, uint16_t priv_size, uint16_t data_room_size,
  int socket_id);
-# 1306 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1223 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 struct rte_mempool *
 rte_pktmbuf_pool_create_by_ops(const char *name, unsigned int n,
  unsigned int cache_size, uint16_t priv_size, uint16_t data_room_size,
  int socket_id, const char *ops_name);
-# 1322 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1239 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline uint16_t
 rte_pktmbuf_data_room_size(struct rte_mempool *mp)
 {
@@ -44529,7 +46970,7 @@ rte_pktmbuf_data_room_size(struct rte_mempool *mp)
  mbp_priv = (struct rte_pktmbuf_pool_private *)rte_mempool_get_priv(mp);
  return mbp_priv->mbuf_data_room_size;
 }
-# 1343 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1260 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline uint16_t
 rte_pktmbuf_priv_size(struct rte_mempool *mp)
 {
@@ -44538,19 +46979,19 @@ rte_pktmbuf_priv_size(struct rte_mempool *mp)
  mbp_priv = (struct rte_pktmbuf_pool_private *)rte_mempool_get_priv(mp);
  return mbp_priv->mbuf_priv_size;
 }
-# 1360 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1277 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline void rte_pktmbuf_reset_headroom(struct rte_mbuf *m)
 {
  m->data_off = (uint16_t)__extension__ ({ __typeof__ ((uint16_t)128) _a = ((uint16_t)128); __typeof__ ((uint16_t)m->buf_len) _b = ((uint16_t)m->buf_len); _a < _b ? _a : _b; })
                           ;
 }
-# 1376 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1293 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline void rte_pktmbuf_reset(struct rte_mbuf *m)
 {
  m->next = 
-# 1378 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1295 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
           ((void *)0)
-# 1378 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1295 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
               ;
  m->pkt_len = 0;
  m->tx_offload = 0;
@@ -44558,9 +46999,9 @@ static inline void rte_pktmbuf_reset(struct rte_mbuf *m)
  m->vlan_tci_outer = 0;
  m->nb_segs = 1;
  m->port = 
-# 1384 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1301 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
           (65535)
-# 1384 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1301 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                            ;
 
  m->ol_flags = 0;
@@ -44570,19 +47011,19 @@ static inline void rte_pktmbuf_reset(struct rte_mbuf *m)
  m->data_len = 0;
  do { } while (0);
 }
-# 1407 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1324 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline struct rte_mbuf *rte_pktmbuf_alloc(struct rte_mempool *mp)
 {
  struct rte_mbuf *m;
  if ((m = rte_mbuf_raw_alloc(mp)) != 
-# 1410 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1327 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
                                     ((void *)0)
-# 1410 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1327 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                                         )
   rte_pktmbuf_reset(m);
  return m;
 }
-# 1429 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1346 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline int rte_pktmbuf_alloc_bulk(struct rte_mempool *pool,
   struct rte_mbuf **mbufs, unsigned count)
 {
@@ -44624,7 +47065,7 @@ static inline int rte_pktmbuf_alloc_bulk(struct rte_mempool *pool,
  }
  return 0;
 }
-# 1503 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1420 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline struct rte_mbuf_ext_shared_info *
 rte_pktmbuf_ext_shinfo_init_helper(void *buf_addr, uint16_t *buf_len,
  rte_mbuf_extbuf_free_callback_t free_cb, void *fcb_opaque)
@@ -44637,9 +47078,9 @@ rte_pktmbuf_ext_shinfo_init_helper(void *buf_addr, uint16_t *buf_len,
                          ;
  if (addr <= buf_addr)
   return 
-# 1514 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1431 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
         ((void *)0)
-# 1514 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1431 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
             ;
 
  shinfo = (struct rte_mbuf_ext_shared_info *)addr;
@@ -44650,8 +47091,8 @@ rte_pktmbuf_ext_shinfo_init_helper(void *buf_addr, uint16_t *buf_len,
  *buf_len = (uint16_t)((uintptr_t)(shinfo) - (uintptr_t)(buf_addr));
  return shinfo;
 }
-# 1581 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
-static inline void
+# 1505 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+static inline void __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_pktmbuf_attach_extbuf(struct rte_mbuf *m, void *buf_addr,
  rte_iova_t buf_iova, uint16_t buf_len,
  struct rte_mbuf_ext_shared_info *shinfo)
@@ -44670,7 +47111,7 @@ rte_pktmbuf_attach_extbuf(struct rte_mbuf *m, void *buf_addr,
  m->ol_flags |= (1ULL << 61);
  m->shinfo = shinfo;
 }
-# 1631 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1555 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline void rte_pktmbuf_attach(struct rte_mbuf *mi, struct rte_mbuf *m)
 {
  do {} while (0)
@@ -44700,9 +47141,9 @@ static inline void rte_pktmbuf_attach(struct rte_mbuf *mi, struct rte_mbuf *m)
  mi->hash = m->hash;
 
  mi->next = 
-# 1659 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1583 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
            ((void *)0)
-# 1659 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1583 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                ;
  mi->pkt_len = mi->data_len;
  mi->nb_segs = 1;
@@ -44712,7 +47153,7 @@ static inline void rte_pktmbuf_attach(struct rte_mbuf *mi, struct rte_mbuf *m)
  do { } while (0);
  do { } while (0);
 }
-# 1676 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1600 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline void
 __rte_pktmbuf_free_extbuf(struct rte_mbuf *m)
 {
@@ -44740,16 +47181,16 @@ __rte_pktmbuf_free_direct(struct rte_mbuf *m)
 
  if (rte_mbuf_refcnt_update(md, -1) == 0) {
   md->next = 
-# 1702 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1626 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
             ((void *)0)
-# 1702 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1626 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                 ;
   md->nb_segs = 1;
   rte_mbuf_refcnt_set(md, 1);
   rte_mbuf_raw_free(md);
  }
 }
-# 1722 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1646 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline void rte_pktmbuf_detach(struct rte_mbuf *m)
 {
  struct rte_mempool *mp = m->pool;
@@ -44773,7 +47214,7 @@ static inline void rte_pktmbuf_detach(struct rte_mbuf *m)
  m->data_len = 0;
  m->ol_flags = 0;
 }
-# 1760 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1684 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline __attribute__((always_inline)) struct rte_mbuf *
 rte_pktmbuf_prefree_seg(struct rte_mbuf *m)
 {
@@ -44785,14 +47226,14 @@ rte_pktmbuf_prefree_seg(struct rte_mbuf *m)
    rte_pktmbuf_detach(m);
 
   if (m->next != 
-# 1770 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1694 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
                 ((void *)0)
-# 1770 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1694 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                     ) {
    m->next = 
-# 1771 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1695 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
             ((void *)0)
-# 1771 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1695 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                 ;
    m->nb_segs = 1;
   }
@@ -44805,14 +47246,14 @@ rte_pktmbuf_prefree_seg(struct rte_mbuf *m)
    rte_pktmbuf_detach(m);
 
   if (m->next != 
-# 1782 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1706 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
                 ((void *)0)
-# 1782 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1706 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                     ) {
    m->next = 
-# 1783 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1707 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
             ((void *)0)
-# 1783 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1707 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                 ;
    m->nb_segs = 1;
   }
@@ -44821,46 +47262,46 @@ rte_pktmbuf_prefree_seg(struct rte_mbuf *m)
   return m;
  }
  return 
-# 1790 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1714 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
        ((void *)0)
-# 1790 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1714 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
            ;
 }
-# 1802 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1726 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline __attribute__((always_inline)) void
 rte_pktmbuf_free_seg(struct rte_mbuf *m)
 {
  m = rte_pktmbuf_prefree_seg(m);
  if (__builtin_expect(!!(m != 
-# 1806 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1730 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
     ((void *)0)
-# 1806 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1730 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
     ), 1))
   rte_mbuf_raw_free(m);
 }
-# 1819 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1743 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline void rte_pktmbuf_free(struct rte_mbuf *m)
 {
  struct rte_mbuf *m_next;
 
  if (m != 
-# 1823 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1747 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
          ((void *)0)
-# 1823 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1747 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
              )
   do { } while (0);
 
  while (m != 
-# 1826 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1750 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
             ((void *)0)
-# 1826 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1750 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                 ) {
   m_next = m->next;
   rte_pktmbuf_free_seg(m);
   m = m_next;
  }
 }
-# 1850 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1774 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline struct rte_mbuf *rte_pktmbuf_clone(struct rte_mbuf *md,
   struct rte_mempool *mp)
 {
@@ -44869,14 +47310,14 @@ static inline struct rte_mbuf *rte_pktmbuf_clone(struct rte_mbuf *md,
  uint16_t nseg;
 
  if (__builtin_expect(!!((mc = rte_pktmbuf_alloc(mp)) == 
-# 1857 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1781 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
     ((void *)0)
-# 1857 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1781 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
     ), 0))
   return 
-# 1858 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1782 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
         ((void *)0)
-# 1858 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1782 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
             ;
 
  mi = mc;
@@ -44890,42 +47331,42 @@ static inline struct rte_mbuf *rte_pktmbuf_clone(struct rte_mbuf *md,
   *prev = mi;
   prev = &mi->next;
  } while ((md = md->next) != 
-# 1870 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1794 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
                             ((void *)0) 
-# 1870 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1794 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                                  &&
      (mi = rte_pktmbuf_alloc(mp)) != 
-# 1871 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1795 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
                                     ((void *)0)
-# 1871 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1795 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                                         );
 
  *prev = 
-# 1873 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1797 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
         ((void *)0)
-# 1873 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1797 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
             ;
  mc->nb_segs = nseg;
  mc->pkt_len = pktlen;
 
 
  if (__builtin_expect(!!(mi == 
-# 1878 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1802 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
     ((void *)0)
-# 1878 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1802 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
     ), 0)) {
   rte_pktmbuf_free(mc);
   return 
-# 1880 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1804 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
         ((void *)0)
-# 1880 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1804 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
             ;
  }
 
  do { } while (0);
  return mc;
 }
-# 1898 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1822 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline void rte_pktmbuf_refcnt_update(struct rte_mbuf *m, int16_t v)
 {
  do { } while (0);
@@ -44933,37 +47374,37 @@ static inline void rte_pktmbuf_refcnt_update(struct rte_mbuf *m, int16_t v)
  do {
   rte_mbuf_refcnt_update(m, v);
  } while ((m = m->next) != 
-# 1904 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1828 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
                           ((void *)0)
-# 1904 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1828 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                               );
 }
-# 1915 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1839 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline uint16_t rte_pktmbuf_headroom(const struct rte_mbuf *m)
 {
  do { } while (0);
  return m->data_off;
 }
-# 1929 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1853 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline uint16_t rte_pktmbuf_tailroom(const struct rte_mbuf *m)
 {
  do { } while (0);
  return (uint16_t)(m->buf_len - rte_pktmbuf_headroom(m) -
      m->data_len);
 }
-# 1944 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1868 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline struct rte_mbuf *rte_pktmbuf_lastseg(struct rte_mbuf *m)
 {
  do { } while (0);
  while (m->next != 
-# 1947 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1871 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
                   ((void *)0)
-# 1947 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1871 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                       )
   m = m->next;
  return m;
 }
-# 2046 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1970 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline char *rte_pktmbuf_prepend(struct rte_mbuf *m,
      uint16_t len)
 {
@@ -44971,9 +47412,9 @@ static inline char *rte_pktmbuf_prepend(struct rte_mbuf *m,
 
  if (__builtin_expect(!!(len > rte_pktmbuf_headroom(m)), 0))
   return 
-# 2052 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 1976 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
         ((void *)0)
-# 2052 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 1976 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
             ;
 
 
@@ -44985,7 +47426,7 @@ static inline char *rte_pktmbuf_prepend(struct rte_mbuf *m,
 
  return (char *)m->buf_addr + m->data_off;
 }
-# 2079 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2003 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline char *rte_pktmbuf_append(struct rte_mbuf *m, uint16_t len)
 {
  void *tail;
@@ -44996,9 +47437,9 @@ static inline char *rte_pktmbuf_append(struct rte_mbuf *m, uint16_t len)
  m_last = rte_pktmbuf_lastseg(m);
  if (__builtin_expect(!!(len > rte_pktmbuf_tailroom(m_last)), 0))
   return 
-# 2088 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 2012 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
         ((void *)0)
-# 2088 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2012 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
             ;
 
  tail = (char *)m_last->buf_addr + m_last->data_off + m_last->data_len;
@@ -45006,16 +47447,16 @@ static inline char *rte_pktmbuf_append(struct rte_mbuf *m, uint16_t len)
  m->pkt_len = (m->pkt_len + len);
  return (char*) tail;
 }
-# 2110 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2034 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline char *rte_pktmbuf_adj(struct rte_mbuf *m, uint16_t len)
 {
  do { } while (0);
 
  if (__builtin_expect(!!(len > m->data_len), 0))
   return 
-# 2115 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 2039 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
         ((void *)0)
-# 2115 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2039 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
             ;
 
 
@@ -45026,7 +47467,7 @@ static inline char *rte_pktmbuf_adj(struct rte_mbuf *m, uint16_t len)
  m->pkt_len = (m->pkt_len - len);
  return (char *)m->buf_addr + m->data_off;
 }
-# 2140 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2064 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline int rte_pktmbuf_trim(struct rte_mbuf *m, uint16_t len)
 {
  struct rte_mbuf *m_last;
@@ -45041,7 +47482,7 @@ static inline int rte_pktmbuf_trim(struct rte_mbuf *m, uint16_t len)
  m->pkt_len = (m->pkt_len - len);
  return 0;
 }
-# 2164 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2088 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline int rte_pktmbuf_is_contiguous(const struct rte_mbuf *m)
 {
  do { } while (0);
@@ -45053,7 +47494,7 @@ static inline int rte_pktmbuf_is_contiguous(const struct rte_mbuf *m)
 
 const void *__rte_pktmbuf_read(const struct rte_mbuf *m, uint32_t off,
  uint32_t len, void *buf);
-# 2196 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2120 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline const void *rte_pktmbuf_read(const struct rte_mbuf *m,
  uint32_t off, uint32_t len, void *buf)
 {
@@ -45062,21 +47503,21 @@ static inline const void *rte_pktmbuf_read(const struct rte_mbuf *m,
  else
   return __rte_pktmbuf_read(m, off, len, buf);
 }
-# 2221 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2145 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline int rte_pktmbuf_chain(struct rte_mbuf *head, struct rte_mbuf *tail)
 {
  struct rte_mbuf *cur_tail;
 
 
  if (head->nb_segs + tail->nb_segs > 
-# 2226 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 2150 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
                                     (65535)
-# 2226 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2150 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                                                         )
   return -
-# 2227 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 2151 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
          75
-# 2227 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2151 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                   ;
 
 
@@ -45095,7 +47536,7 @@ static inline int rte_pktmbuf_chain(struct rte_mbuf *head, struct rte_mbuf *tail
 
  return 0;
 }
-# 2256 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2180 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline int
 rte_validate_tx_offload(const struct rte_mbuf *m)
 {
@@ -45116,26 +47557,26 @@ rte_validate_tx_offload(const struct rte_mbuf *m)
 
  if (((m)->data_len) < inner_l3_offset + m->l3_len + m->l4_len)
   return -
-# 2275 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 2199 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
          95
-# 2275 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2199 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                 ;
 
 
  if ((ol_flags & (1ULL << 54)) && (ol_flags & (1ULL << 56)))
   return -
-# 2279 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 2203 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
          22
-# 2279 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2203 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                ;
 
 
  if (ol_flags & ((3ULL << 52) | (1ULL << 50)))
   if (!(ol_flags & ((1ULL << 55) | (1ULL << 56))))
    return -
-# 2284 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 2208 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
           22
-# 2284 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2208 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                 ;
 
 
@@ -45144,23 +47585,23 @@ rte_validate_tx_offload(const struct rte_mbuf *m)
     ((ol_flags & (1ULL << 55)) &&
     !(ol_flags & (1ULL << 54))))
    return -
-# 2291 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 2215 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
           22
-# 2291 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2215 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                 ;
 
 
  if ((ol_flags & (1ULL << 58)) &&
    !(ol_flags & (1ULL << 59)))
   return -
-# 2296 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 2220 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
          22
-# 2296 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2220 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                ;
 
  return 0;
 }
-# 2313 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2237 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 static inline int
 rte_pktmbuf_linearize(struct rte_mbuf *mbuf)
 {
@@ -45184,9 +47625,9 @@ rte_pktmbuf_linearize(struct rte_mbuf *mbuf)
 
  m = mbuf->next;
  while (m != 
-# 2335 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 2259 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
             ((void *)0)
-# 2335 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2259 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                 ) {
   m_next = m->next;
 
@@ -45199,100 +47640,21 @@ rte_pktmbuf_linearize(struct rte_mbuf *mbuf)
  }
 
  mbuf->next = 
-# 2346 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
+# 2270 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h" 3 4
              ((void *)0)
-# 2346 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2270 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
                  ;
  mbuf->nb_segs = 1;
 
  return 0;
 }
-# 2366 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
+# 2290 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
 void rte_pktmbuf_dump(FILE *f, const struct rte_mbuf *m, unsigned dump_len);
-
-
-
-
-static inline uint32_t
-rte_mbuf_sched_queue_get(const struct rte_mbuf *m)
-{
- return m->hash.sched.queue_id;
-}
-
-
-
-
-static inline uint8_t
-rte_mbuf_sched_traffic_class_get(const struct rte_mbuf *m)
-{
- return m->hash.sched.traffic_class;
-}
-
-
-
-
-static inline uint8_t
-rte_mbuf_sched_color_get(const struct rte_mbuf *m)
-{
- return m->hash.sched.color;
-}
-# 2407 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
-static inline void
-rte_mbuf_sched_get(const struct rte_mbuf *m, uint32_t *queue_id,
-   uint8_t *traffic_class,
-   uint8_t *color)
-{
- struct rte_mbuf_sched sched = m->hash.sched;
-
- *queue_id = sched.queue_id;
- *traffic_class = sched.traffic_class;
- *color = sched.color;
-}
-
-
-
-
-static inline void
-rte_mbuf_sched_queue_set(struct rte_mbuf *m, uint32_t queue_id)
-{
- m->hash.sched.queue_id = queue_id;
-}
-
-
-
-
-static inline void
-rte_mbuf_sched_traffic_class_set(struct rte_mbuf *m, uint8_t traffic_class)
-{
- m->hash.sched.traffic_class = traffic_class;
-}
-
-
-
-
-static inline void
-rte_mbuf_sched_color_set(struct rte_mbuf *m, uint8_t color)
-{
- m->hash.sched.color = color;
-}
-# 2458 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_mbuf.h"
-static inline void
-rte_mbuf_sched_set(struct rte_mbuf *m, uint32_t queue_id,
-   uint8_t traffic_class,
-   uint8_t color)
-{
- m->hash.sched = (struct rte_mbuf_sched){
-    .queue_id = queue_id,
-    .traffic_class = traffic_class,
-    .color = color,
-    .reserved = 0,
-   };
-}
-# 24 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_byteorder.h" 1
-# 15 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_byteorder.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_byteorder.h" 1
-# 110 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/generic/rte_byteorder.h"
+# 24 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_byteorder.h" 1
+# 15 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_byteorder.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_byteorder.h" 1
+# 110 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/generic/rte_byteorder.h"
 typedef uint16_t rte_be16_t;
 typedef uint32_t rte_be32_t;
 typedef uint64_t rte_be64_t;
@@ -45335,8 +47697,8 @@ rte_constant_bswap64(uint64_t x)
 {
  return (uint64_t)((((uint64_t)(x) & 0x00000000000000ffUL) << 56) | (((uint64_t)(x) & 0x000000000000ff00UL) << 40) | (((uint64_t)(x) & 0x0000000000ff0000UL) << 24) | (((uint64_t)(x) & 0x00000000ff000000UL) << 8) | (((uint64_t)(x) & 0x000000ff00000000UL) >> 8) | (((uint64_t)(x) & 0x0000ff0000000000UL) >> 24) | (((uint64_t)(x) & 0x00ff000000000000UL) >> 40) | (((uint64_t)(x) & 0xff00000000000000UL) >> 56));
 }
-# 16 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_byteorder.h" 2
-# 26 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_byteorder.h"
+# 16 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_byteorder.h" 2
+# 26 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_byteorder.h"
 static inline uint16_t rte_arch_bswap16(uint16_t _x)
 {
  uint16_t x = _x;
@@ -45360,9 +47722,9 @@ static inline uint32_t rte_arch_bswap32(uint32_t _x)
         );
  return x;
 }
-# 92 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_byteorder.h"
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_byteorder_64.h" 1
-# 21 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_byteorder_64.h"
+# 92 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_byteorder.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_byteorder_64.h" 1
+# 21 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_byteorder_64.h"
 static inline uint64_t rte_arch_bswap64(uint64_t _x)
 {
  uint64_t x = _x;
@@ -45371,13 +47733,13 @@ static inline uint64_t rte_arch_bswap64(uint64_t _x)
         );
  return x;
 }
-# 93 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_byteorder.h" 2
-# 25 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h" 2
-# 57 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 93 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_byteorder.h" 2
+# 25 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h" 2
+# 57 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 struct ether_addr {
  uint8_t addr_bytes[6];
 } __attribute__((__packed__));
-# 78 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 78 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 static inline int is_same_ether_addr(const struct ether_addr *ea1,
          const struct ether_addr *ea2)
 {
@@ -45387,7 +47749,7 @@ static inline int is_same_ether_addr(const struct ether_addr *ea1,
    return 0;
  return 1;
 }
-# 98 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 98 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 static inline int is_zero_ether_addr(const struct ether_addr *ea)
 {
  int i;
@@ -45396,17 +47758,17 @@ static inline int is_zero_ether_addr(const struct ether_addr *ea)
    return 0;
  return 1;
 }
-# 117 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 117 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 static inline int is_unicast_ether_addr(const struct ether_addr *ea)
 {
  return (ea->addr_bytes[0] & 0x01) == 0;
 }
-# 132 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 132 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 static inline int is_multicast_ether_addr(const struct ether_addr *ea)
 {
  return ea->addr_bytes[0] & 0x01;
 }
-# 147 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 147 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 static inline int is_broadcast_ether_addr(const struct ether_addr *ea)
 {
  const unaligned_uint16_t *ea_words = (const unaligned_uint16_t *)ea;
@@ -45414,17 +47776,17 @@ static inline int is_broadcast_ether_addr(const struct ether_addr *ea)
  return (ea_words[0] == 0xFFFF && ea_words[1] == 0xFFFF &&
   ea_words[2] == 0xFFFF);
 }
-# 165 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 165 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 static inline int is_universal_ether_addr(const struct ether_addr *ea)
 {
  return (ea->addr_bytes[0] & 0x02) == 0;
 }
-# 180 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 180 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 static inline int is_local_admin_ether_addr(const struct ether_addr *ea)
 {
  return (ea->addr_bytes[0] & 0x02) != 0;
 }
-# 196 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 196 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 static inline int is_valid_assigned_ether_addr(const struct ether_addr *ea)
 {
  return is_unicast_ether_addr(ea) && (!is_zero_ether_addr(ea));
@@ -45445,15 +47807,15 @@ static inline void eth_random_addr(uint8_t *addr)
  addr[0] &= (uint8_t)~0x01;
  addr[0] |= 0x02;
 }
-# 225 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 225 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 static inline void ether_addr_copy(const struct ether_addr *ea_from,
        struct ether_addr *ea_to)
 {
-# 239 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 239 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
  *ea_to = *ea_from;
 
 }
-# 254 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 254 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 static inline void
 ether_format_addr(char *buf, uint16_t size,
     const struct ether_addr *eth_addr)
@@ -45496,14 +47858,14 @@ struct vxlan_hdr {
  uint32_t vx_flags;
  uint32_t vx_vni;
 } __attribute__((__packed__));
-# 320 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 320 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 struct vxlan_gpe_hdr {
  uint8_t vx_flags;
  uint8_t reserved[2];
  uint8_t proto;
  uint32_t vx_vni;
 } __attribute__((__packed__));
-# 351 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 351 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 static inline int rte_vlan_strip(struct rte_mbuf *m)
 {
  struct ether_hdr *eh
@@ -45523,7 +47885,7 @@ static inline int rte_vlan_strip(struct rte_mbuf *m)
 
  return 0;
 }
-# 383 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 383 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
 static inline int rte_vlan_insert(struct rte_mbuf **m)
 {
  struct ether_hdr *oh, *nh;
@@ -45535,14 +47897,14 @@ static inline int rte_vlan_insert(struct rte_mbuf **m)
 
   copy = rte_pktmbuf_clone(*m, (*m)->pool);
   if (__builtin_expect(!!(copy == 
-# 393 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h" 3 4
+# 393 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h" 3 4
      ((void *)0)
-# 393 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 393 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
      ), 0))
    return -
-# 394 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h" 3 4
+# 394 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h" 3 4
           12
-# 394 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 394 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
                 ;
   rte_pktmbuf_free(*m);
   *m = copy;
@@ -45552,14 +47914,14 @@ static inline int rte_vlan_insert(struct rte_mbuf **m)
  nh = (struct ether_hdr *)
   rte_pktmbuf_prepend(*m, sizeof(struct vlan_hdr));
  if (nh == 
-# 402 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h" 3 4
+# 402 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h" 3 4
           ((void *)0)
-# 402 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 402 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
               )
   return -
-# 403 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h" 3 4
+# 403 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h" 3 4
          28
-# 403 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ether.h"
+# 403 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ether.h"
                ;
 
  memmove(nh, oh, 2 * 6);
@@ -45572,9 +47934,9 @@ static inline int rte_vlan_insert(struct rte_mbuf **m)
 
  return 0;
 }
-# 159 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h" 1
-# 63 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
+# 159 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h" 1
+# 63 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
 enum rte_filter_type {
  RTE_ETH_FILTER_NONE = 0,
  RTE_ETH_FILTER_MACVLAN,
@@ -45627,14 +47989,14 @@ struct rte_eth_mac_filter {
  enum rte_mac_filter_type filter_type;
  struct ether_addr mac_addr;
 };
-# 128 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
+# 128 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
 struct rte_eth_ethertype_filter {
  struct ether_addr mac_addr;
  uint16_t ether_type;
  uint16_t flags;
  uint16_t queue;
 };
-# 145 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
+# 145 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
 struct rte_eth_flex_filter {
  uint16_t len;
  uint8_t bytes[128];
@@ -45654,7 +48016,7 @@ struct rte_eth_syn_filter {
 
  uint16_t queue;
 };
-# 200 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
+# 200 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
 struct rte_eth_ntuple_filter {
  uint16_t flags;
  uint32_t dst_ip;
@@ -45689,7 +48051,7 @@ enum rte_eth_tunnel_type {
  RTE_L2_TUNNEL_TYPE_E_TAG,
  RTE_TUNNEL_TYPE_MAX,
 };
-# 259 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
+# 259 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
 enum rte_tunnel_iptype {
  RTE_TUNNEL_IPTYPE_IPV4 = 0,
  RTE_TUNNEL_IPTYPE_IPV6,
@@ -46096,7 +48458,7 @@ enum rte_fdir_mode {
  RTE_FDIR_MODE_PERFECT_MAC_VLAN,
  RTE_FDIR_MODE_PERFECT_TUNNEL,
 };
-# 677 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
+# 677 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
 struct rte_eth_fdir_info {
  enum rte_fdir_mode mode;
  struct rte_eth_fdir_masks mask;
@@ -46165,7 +48527,7 @@ struct rte_eth_fdir_filter_info {
   struct rte_eth_input_set_conf input_set_conf;
  } info;
 };
-# 756 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
+# 756 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
 enum rte_eth_hash_filter_info_type {
  RTE_ETH_HASH_FILTER_INFO_TYPE_UNKNOWN = 0,
 
@@ -46186,7 +48548,7 @@ enum rte_eth_hash_function {
  RTE_ETH_HASH_FUNCTION_SIMPLE_XOR,
  RTE_ETH_HASH_FUNCTION_MAX,
 };
-# 788 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
+# 788 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_eth_ctrl.h"
 struct rte_eth_hash_global_conf {
  enum rte_eth_hash_function hash_func;
 
@@ -46222,9 +48584,9 @@ struct rte_eth_l2_tunnel_conf {
  uint16_t vf_id;
  uint32_t pool;
 };
-# 160 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev_info.h" 1
-# 13 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_dev_info.h"
+# 160 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev_info.h" 1
+# 13 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_dev_info.h"
 struct rte_dev_reg_info {
  void *data;
  uint32_t offset;
@@ -46250,7 +48612,7 @@ struct rte_eth_dev_module_info {
  uint32_t type;
  uint32_t eeprom_len;
 };
-# 161 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
+# 161 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
 
 extern int rte_eth_dev_logtype;
 
@@ -46258,13 +48620,13 @@ extern int rte_eth_dev_logtype;
 
 
 struct rte_mbuf;
-# 185 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 185 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_iterator_init(struct rte_dev_iterator *iter, const char *devargs);
-# 201 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 201 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 uint16_t rte_eth_iterator_next(struct rte_dev_iterator *iter);
-# 215 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 215 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 void rte_eth_iterator_cleanup(struct rte_dev_iterator *iter);
-# 242 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 242 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_stats {
  uint64_t ipackets;
  uint64_t opackets;
@@ -46288,7 +48650,7 @@ struct rte_eth_stats {
  uint64_t q_errors[16];
 
 };
-# 306 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 306 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 __extension__
 struct rte_eth_link {
  uint32_t link_speed;
@@ -46296,13 +48658,13 @@ struct rte_eth_link {
  uint16_t link_autoneg : 1;
  uint16_t link_status : 1;
 } __attribute__((aligned(8)));
-# 326 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 326 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_thresh {
  uint8_t pthresh;
  uint8_t hthresh;
  uint8_t wthresh;
 };
-# 343 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 343 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 enum rte_eth_rx_mq_mode {
 
  ETH_MQ_RX_NONE = 0,
@@ -46324,14 +48686,14 @@ enum rte_eth_rx_mq_mode {
  ETH_MQ_RX_VMDQ_DCB_RSS = 0x1 | 0x2 |
      0x4,
 };
-# 376 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 376 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 enum rte_eth_tx_mq_mode {
  ETH_MQ_TX_NONE = 0,
  ETH_MQ_TX_DCB,
  ETH_MQ_TX_VMDQ_DCB,
  ETH_MQ_TX_VMDQ_ONLY,
 };
-# 393 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 393 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_rxmode {
 
  enum rte_eth_rx_mq_mode mq_mode;
@@ -46363,13 +48725,13 @@ enum rte_vlan_type {
 struct rte_vlan_filter_conf {
  uint64_t ids[64];
 };
-# 442 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 442 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_rss_conf {
  uint8_t *rss_key;
  uint8_t rss_key_len;
  uint64_t rss_hf;
 };
-# 583 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 583 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_vlan_mirror {
  uint64_t vlan_mask;
 
@@ -46442,7 +48804,7 @@ struct rte_eth_dcb_tx_conf {
 struct rte_eth_vmdq_tx_conf {
  enum rte_eth_nb_pools nb_queue_pools;
 };
-# 667 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 667 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_vmdq_dcb_conf {
  enum rte_eth_nb_pools nb_queue_pools;
  uint8_t enable_default_pool;
@@ -46455,7 +48817,7 @@ struct rte_eth_vmdq_dcb_conf {
  uint8_t dcb_tc[8];
 
 };
-# 698 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 698 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_vmdq_rx_conf {
  enum rte_eth_nb_pools nb_queue_pools;
  uint8_t enable_default_pool;
@@ -46533,9 +48895,9 @@ struct rte_eth_desc_lim {
  uint16_t nb_max;
  uint16_t nb_min;
  uint16_t nb_align;
-# 784 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 784 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
  uint16_t nb_seg_max;
-# 797 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 797 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
  uint16_t nb_mtu_seg_max;
 };
 
@@ -46609,7 +48971,7 @@ struct rte_fdir_conf {
  struct rte_eth_fdir_flex_conf flex_conf;
 
 };
-# 878 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 878 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_udp_tunnel {
  uint16_t udp_port;
  uint8_t prot_type;
@@ -46670,13 +49032,13 @@ struct rte_eth_conf {
  struct rte_fdir_conf fdir_conf;
  struct rte_intr_conf intr_conf;
 };
-# 1047 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1047 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_dev_portconf {
  uint16_t burst_size;
  uint16_t ring_size;
  uint16_t nb_queues;
 };
-# 1062 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1062 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_switch_info {
  const char *name;
  uint16_t domain_id;
@@ -46689,7 +49051,7 @@ struct rte_eth_switch_info {
 
 
 };
-# 1084 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1084 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_dev_info {
  struct rte_device *device;
  const char *driver_name;
@@ -46761,16 +49123,16 @@ struct rte_eth_txq_info {
  struct rte_eth_txconf conf;
  uint16_t nb_desc;
 } __attribute__((__aligned__(64)));
-# 1168 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1168 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_xstat {
  uint64_t id;
  uint64_t value;
 };
-# 1180 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1180 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_xstat_name {
  char name[64];
 };
-# 1191 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1191 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_dcb_tc_queue_mapping {
 
  struct {
@@ -46795,11 +49157,11 @@ struct rte_eth_dcb_info {
 
  struct rte_eth_dcb_tc_queue_mapping tc_queue;
 };
-# 1274 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1274 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 typedef uint16_t (*rte_rx_callback_fn)(uint16_t port_id, uint16_t queue,
  struct rte_mbuf *pkts[], uint16_t nb_pkts, uint16_t max_pkts,
  void *user_param);
-# 1298 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1298 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 typedef uint16_t (*rte_tx_callback_fn)(uint16_t port_id, uint16_t queue,
  struct rte_mbuf *pkts[], uint16_t nb_pkts, void *user_param);
 
@@ -46821,80 +49183,80 @@ struct rte_eth_dev_sriov {
  uint16_t def_vmdq_idx;
  uint16_t def_pool_q_idx;
 };
-# 1327 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1327 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 struct rte_eth_dev_owner {
  uint64_t id;
  char name[64];
 };
-# 1359 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1359 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 uint64_t rte_eth_find_next_owned_by(uint16_t port_id,
   const uint64_t owner_id);
-# 1378 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1378 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 uint16_t rte_eth_find_next(uint16_t port_id);
-# 1400 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1400 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) rte_eth_dev_owner_new(uint64_t *owner_id);
-# 1415 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1415 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) rte_eth_dev_owner_set(const uint16_t port_id,
   const struct rte_eth_dev_owner *owner);
-# 1431 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1431 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) rte_eth_dev_owner_unset(const uint16_t port_id,
   const uint64_t owner_id);
-# 1443 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1443 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 void __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) rte_eth_dev_owner_delete(const uint64_t owner_id);
-# 1458 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1458 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) rte_eth_dev_owner_get(const uint16_t port_id,
   struct rte_eth_dev_owner *owner);
-# 1473 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1473 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 __attribute__((__deprecated__))
 uint16_t rte_eth_dev_count(void);
-# 1486 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1486 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 uint16_t rte_eth_dev_count_avail(void);
-# 1496 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1496 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 uint16_t __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental"))) rte_eth_dev_count_total(void);
-# 1509 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1509 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 uint32_t rte_eth_speed_bitflag(uint32_t speed, int duplex);
-# 1519 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1519 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 const char *rte_eth_dev_rx_offload_name(uint64_t offload);
-# 1529 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1529 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 const char *rte_eth_dev_tx_offload_name(uint64_t offload);
-# 1570 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1570 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_configure(uint16_t port_id, uint16_t nb_rx_queue,
   uint16_t nb_tx_queue, const struct rte_eth_conf *eth_conf);
-# 1584 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1584 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_eth_dev_is_removed(uint16_t port_id);
-# 1636 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1636 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_rx_queue_setup(uint16_t port_id, uint16_t rx_queue_id,
   uint16_t nb_rx_desc, unsigned int socket_id,
   const struct rte_eth_rxconf *rx_conf,
   struct rte_mempool *mb_pool);
-# 1689 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1689 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_tx_queue_setup(uint16_t port_id, uint16_t tx_queue_id,
   uint16_t nb_tx_desc, unsigned int socket_id,
   const struct rte_eth_txconf *tx_conf);
-# 1703 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1703 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_socket_id(uint16_t port_id);
-# 1714 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1714 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_is_valid_port(uint16_t port_id);
-# 1732 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1732 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_rx_queue_start(uint16_t port_id, uint16_t rx_queue_id);
-# 1749 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1749 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_rx_queue_stop(uint16_t port_id, uint16_t rx_queue_id);
-# 1767 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1767 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_tx_queue_start(uint16_t port_id, uint16_t tx_queue_id);
-# 1784 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1784 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_tx_queue_stop(uint16_t port_id, uint16_t tx_queue_id);
-# 1805 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1805 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_start(uint16_t port_id);
-# 1814 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1814 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 void rte_eth_dev_stop(uint16_t port_id);
-# 1828 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1828 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_set_link_up(uint16_t port_id);
-# 1839 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1839 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_set_link_down(uint16_t port_id);
-# 1849 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1849 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 void rte_eth_dev_close(uint16_t port_id);
-# 1888 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1888 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_reset(uint16_t port_id);
 
 
@@ -46912,7 +49274,7 @@ void rte_eth_promiscuous_enable(uint16_t port_id);
 
 
 void rte_eth_promiscuous_disable(uint16_t port_id);
-# 1916 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1916 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_promiscuous_get(uint16_t port_id);
 
 
@@ -46930,32 +49292,32 @@ void rte_eth_allmulticast_enable(uint16_t port_id);
 
 
 void rte_eth_allmulticast_disable(uint16_t port_id);
-# 1944 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1944 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_allmulticast_get(uint16_t port_id);
-# 1957 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1957 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 void rte_eth_link_get(uint16_t port_id, struct rte_eth_link *link);
-# 1970 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1970 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 void rte_eth_link_get_nowait(uint16_t port_id, struct rte_eth_link *link);
-# 1989 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 1989 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_stats_get(uint16_t port_id, struct rte_eth_stats *stats);
-# 2001 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2001 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_stats_reset(uint16_t port_id);
-# 2032 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2032 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_xstats_get_names(uint16_t port_id,
   struct rte_eth_xstat_name *xstats_names,
   unsigned int size);
-# 2065 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2065 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_xstats_get(uint16_t port_id, struct rte_eth_xstat *xstats,
   unsigned int n);
-# 2090 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2090 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int
 rte_eth_xstats_get_names_by_id(uint16_t port_id,
  struct rte_eth_xstat_name *xstats_names, unsigned int size,
  uint64_t *ids);
-# 2118 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2118 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_xstats_get_by_id(uint16_t port_id, const uint64_t *ids,
         uint64_t *values, unsigned int size);
-# 2139 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2139 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_xstats_get_id_by_name(uint16_t port_id, const char *xstat_name,
   uint64_t *id);
 
@@ -46966,41 +49328,41 @@ int rte_eth_xstats_get_id_by_name(uint16_t port_id, const char *xstat_name,
 
 
 void rte_eth_xstats_reset(uint16_t port_id);
-# 2167 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2167 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_set_tx_queue_stats_mapping(uint16_t port_id,
   uint16_t tx_queue_id, uint8_t stat_idx);
-# 2187 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2187 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_set_rx_queue_stats_mapping(uint16_t port_id,
         uint16_t rx_queue_id,
         uint8_t stat_idx);
-# 2200 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2200 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 void rte_eth_macaddr_get(uint16_t port_id, struct ether_addr *mac_addr);
-# 2211 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2211 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 void rte_eth_dev_info_get(uint16_t port_id, struct rte_eth_dev_info *dev_info);
-# 2232 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2232 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_fw_version_get(uint16_t port_id,
           char *fw_version, size_t fw_size);
-# 2273 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2273 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_get_supported_ptypes(uint16_t port_id, uint32_t ptype_mask,
          uint32_t *ptypes, int num);
-# 2287 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2287 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_get_mtu(uint16_t port_id, uint16_t *mtu);
-# 2304 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2304 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_set_mtu(uint16_t port_id, uint16_t mtu);
-# 2325 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2325 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_vlan_filter(uint16_t port_id, uint16_t vlan_id, int on);
-# 2346 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2346 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_set_vlan_strip_on_queue(uint16_t port_id, uint16_t rx_queue_id,
   int on);
-# 2366 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2366 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_set_vlan_ether_type(uint16_t port_id,
         enum rte_vlan_type vlan_type,
         uint16_t tag_type);
-# 2391 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2391 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_set_vlan_offload(uint16_t port_id, int offload_mask);
-# 2405 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2405 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_get_vlan_offload(uint16_t port_id);
-# 2421 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2421 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_set_vlan_pvid(uint16_t port_id, uint16_t pvid, int on);
 
 typedef void (*buffer_tx_error_fn)(struct rte_mbuf **unsent, uint16_t count,
@@ -47018,22 +49380,22 @@ struct rte_eth_dev_tx_buffer {
  struct rte_mbuf *pkts[];
 
 };
-# 2458 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2458 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int
 rte_eth_tx_buffer_init(struct rte_eth_dev_tx_buffer *buffer, uint16_t size);
-# 2485 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2485 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int
 rte_eth_tx_buffer_set_err_callback(struct rte_eth_dev_tx_buffer *buffer,
   buffer_tx_error_fn callback, void *userdata);
-# 2511 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2511 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 void
 rte_eth_tx_buffer_drop_callback(struct rte_mbuf **pkts, uint16_t unsent,
   void *userdata);
-# 2538 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2538 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 void
 rte_eth_tx_buffer_count_callback(struct rte_mbuf **pkts, uint16_t unsent,
   void *userdata);
-# 2567 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2567 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int
 rte_eth_tx_done_cleanup(uint16_t port_id, uint16_t queue_id, uint32_t free_cnt);
 
@@ -47062,7 +49424,7 @@ struct rte_eth_event_ipsec_desc {
  enum rte_eth_event_ipsec_subtype subtype;
 
  uint64_t metadata;
-# 2608 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2608 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 };
 
 
@@ -47086,205 +49448,205 @@ enum rte_eth_event_type {
 
 typedef int (*rte_eth_dev_cb_fn)(uint16_t port_id,
   enum rte_eth_event_type event, void *cb_arg, void *ret_param);
-# 2650 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2650 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_callback_register(uint16_t port_id,
    enum rte_eth_event_type event,
   rte_eth_dev_cb_fn cb_fn, void *cb_arg);
-# 2672 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2672 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_callback_unregister(uint16_t port_id,
    enum rte_eth_event_type event,
   rte_eth_dev_cb_fn cb_fn, void *cb_arg);
-# 2697 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2697 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_rx_intr_enable(uint16_t port_id, uint16_t queue_id);
-# 2719 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2719 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_rx_intr_disable(uint16_t port_id, uint16_t queue_id);
-# 2738 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2738 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_rx_intr_ctl(uint16_t port_id, int epfd, int op, void *data);
-# 2761 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2761 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_rx_intr_ctl_q(uint16_t port_id, uint16_t queue_id,
          int epfd, int op, void *data);
-# 2781 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2781 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_eth_dev_rx_intr_ctl_q_get_fd(uint16_t port_id, uint16_t queue_id);
-# 2797 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2797 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_led_on(uint16_t port_id);
-# 2812 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2812 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_led_off(uint16_t port_id);
-# 2827 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2827 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_flow_ctrl_get(uint16_t port_id,
          struct rte_eth_fc_conf *fc_conf);
-# 2844 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2844 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_flow_ctrl_set(uint16_t port_id,
          struct rte_eth_fc_conf *fc_conf);
-# 2862 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2862 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_priority_flow_ctrl_set(uint16_t port_id,
     struct rte_eth_pfc_conf *pfc_conf);
-# 2884 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2884 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_mac_addr_add(uint16_t port_id, struct ether_addr *mac_addr,
     uint32_t pool);
-# 2900 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2900 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_mac_addr_remove(uint16_t port_id, struct ether_addr *mac_addr);
-# 2915 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2915 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_default_mac_addr_set(uint16_t port_id,
   struct ether_addr *mac_addr);
-# 2934 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2934 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_rss_reta_update(uint16_t port_id,
     struct rte_eth_rss_reta_entry64 *reta_conf,
     uint16_t reta_size);
-# 2954 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2954 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_rss_reta_query(uint16_t port_id,
           struct rte_eth_rss_reta_entry64 *reta_conf,
           uint16_t reta_size);
-# 2977 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2977 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_uc_hash_table_set(uint16_t port_id, struct ether_addr *addr,
       uint8_t on);
-# 2998 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 2998 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_uc_all_hash_table_set(uint16_t port_id, uint8_t on);
-# 3022 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3022 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_mirror_rule_set(uint16_t port_id,
    struct rte_eth_mirror_conf *mirror_conf,
    uint8_t rule_id,
    uint8_t on);
-# 3041 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3041 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_mirror_rule_reset(uint16_t port_id,
       uint8_t rule_id);
-# 3060 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3060 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_set_queue_rate_limit(uint16_t port_id, uint16_t queue_idx,
    uint16_t tx_rate);
-# 3077 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3077 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_rss_hash_update(uint16_t port_id,
     struct rte_eth_rss_conf *rss_conf);
-# 3094 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3094 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int
 rte_eth_dev_rss_hash_conf_get(uint16_t port_id,
          struct rte_eth_rss_conf *rss_conf);
-# 3116 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3116 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int
 rte_eth_dev_udp_tunnel_port_add(uint16_t port_id,
     struct rte_eth_udp_tunnel *tunnel_udp);
-# 3139 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3139 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int
 rte_eth_dev_udp_tunnel_port_delete(uint16_t port_id,
        struct rte_eth_udp_tunnel *tunnel_udp);
-# 3157 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3157 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_filter_supported(uint16_t port_id,
   enum rte_filter_type filter_type);
-# 3179 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3179 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_filter_ctrl(uint16_t port_id, enum rte_filter_type filter_type,
    enum rte_filter_op filter_op, void *arg);
-# 3195 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3195 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_get_dcb_info(uint16_t port_id,
         struct rte_eth_dcb_info *dcb_info);
 
 struct rte_eth_rxtx_callback;
-# 3224 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3224 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 const struct rte_eth_rxtx_callback *
 rte_eth_add_rx_callback(uint16_t port_id, uint16_t queue_id,
   rte_rx_callback_fn fn, void *user_param);
-# 3253 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3253 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 const struct rte_eth_rxtx_callback *
 rte_eth_add_first_rx_callback(uint16_t port_id, uint16_t queue_id,
   rte_rx_callback_fn fn, void *user_param);
-# 3281 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3281 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 const struct rte_eth_rxtx_callback *
 rte_eth_add_tx_callback(uint16_t port_id, uint16_t queue_id,
   rte_tx_callback_fn fn, void *user_param);
-# 3315 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3315 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_remove_rx_callback(uint16_t port_id, uint16_t queue_id,
   const struct rte_eth_rxtx_callback *user_cb);
-# 3348 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3348 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_remove_tx_callback(uint16_t port_id, uint16_t queue_id,
   const struct rte_eth_rxtx_callback *user_cb);
-# 3368 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3368 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_rx_queue_info_get(uint16_t port_id, uint16_t queue_id,
  struct rte_eth_rxq_info *qinfo);
-# 3388 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3388 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_tx_queue_info_get(uint16_t port_id, uint16_t queue_id,
  struct rte_eth_txq_info *qinfo);
-# 3408 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3408 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_get_reg_info(uint16_t port_id, struct rte_dev_reg_info *info);
-# 3422 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3422 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_get_eeprom_length(uint16_t port_id);
-# 3439 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3439 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_get_eeprom(uint16_t port_id, struct rte_dev_eeprom_info *info);
-# 3456 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3456 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_set_eeprom(uint16_t port_id, struct rte_dev_eeprom_info *info);
-# 3475 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3475 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_eth_dev_get_module_info(uint16_t port_id,
        struct rte_eth_dev_module_info *modinfo);
-# 3497 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3497 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int __attribute__((deprecated("Symbol is not yet part of stable ABI"), section(".text.experimental")))
 rte_eth_dev_get_module_eeprom(uint16_t port_id,
          struct rte_dev_eeprom_info *info);
-# 3519 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3519 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_set_mc_addr_list(uint16_t port_id,
      struct ether_addr *mc_addr_set,
      uint32_t nb_mc_addr);
-# 3535 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3535 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_timesync_enable(uint16_t port_id);
-# 3549 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3549 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_timesync_disable(uint16_t port_id);
-# 3569 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3569 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_timesync_read_rx_timestamp(uint16_t port_id,
   struct timespec *timestamp, uint32_t flags);
-# 3587 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3587 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_timesync_read_tx_timestamp(uint16_t port_id,
   struct timespec *timestamp);
-# 3607 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3607 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_timesync_adjust_time(uint16_t port_id, int64_t delta);
-# 3623 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3623 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_timesync_read_time(uint16_t port_id, struct timespec *time);
-# 3643 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3643 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_timesync_write_time(uint16_t port_id, const struct timespec *time);
-# 3660 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3660 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int
 rte_eth_dev_l2_tunnel_eth_type_conf(uint16_t port_id,
         struct rte_eth_l2_tunnel_conf *l2_tunnel);
-# 3688 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3688 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int
 rte_eth_dev_l2_tunnel_offload_set(uint16_t port_id,
       struct rte_eth_l2_tunnel_conf *l2_tunnel,
       uint32_t mask,
       uint8_t en);
-# 3709 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3709 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int
 rte_eth_dev_get_port_by_name(const char *name, uint16_t *port_id);
-# 3726 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3726 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int
 rte_eth_dev_get_name_by_port(uint16_t port_id, char *name);
-# 3745 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3745 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int rte_eth_dev_adjust_nb_rx_tx_desc(uint16_t port_id,
          uint16_t *nb_rx_desc,
          uint16_t *nb_tx_desc);
-# 3763 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3763 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 int
 rte_eth_dev_pool_ops_supported(uint16_t port_id, const char *pool);
-# 3775 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3775 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 void *
 rte_eth_dev_get_sec_ctx(uint16_t port_id);
 
 
-# 1 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h" 1
-# 20 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
+# 1 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h" 1
+# 20 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
 struct rte_eth_dev_callback;
 
 
-# 22 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h" 3 4
+# 22 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h" 3 4
 struct 
-# 22 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
+# 22 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
 rte_eth_dev_cb_list 
-# 22 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h" 3 4
+# 22 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h" 3 4
 { struct 
-# 22 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
+# 22 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
 rte_eth_dev_callback 
-# 22 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h" 3 4
+# 22 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h" 3 4
 *tqh_first; struct 
-# 22 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
+# 22 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
 rte_eth_dev_callback 
-# 22 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h" 3 4
+# 22 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h" 3 4
 * *tqh_last; }
-# 22 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
+# 22 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
                                                     ;
 
 
@@ -47790,7 +50152,7 @@ struct rte_eth_rxtx_callback {
  } fn;
  void *param;
 };
-# 538 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
+# 538 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
 struct rte_eth_dev {
  eth_rx_burst_t rx_pkt_burst;
  eth_tx_burst_t tx_pkt_burst;
@@ -47823,7 +50185,7 @@ struct rte_eth_dev {
 
 struct rte_eth_dev_sriov;
 struct rte_eth_dev_owner;
-# 578 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
+# 578 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev_core.h"
 struct rte_eth_dev_data {
  char name[64];
 
@@ -47886,23 +50248,23 @@ struct rte_eth_dev_data {
 
 
 extern struct rte_eth_dev rte_eth_devices[];
-# 3780 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
-# 3863 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3780 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 2
+# 3863 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 static inline uint16_t
 rte_eth_rx_burst(uint16_t port_id, uint16_t queue_id,
    struct rte_mbuf **rx_pkts, const uint16_t nb_pkts)
 {
  struct rte_eth_dev *dev = &rte_eth_devices[port_id];
  uint16_t nb_rx;
-# 3879 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3879 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
  nb_rx = (*dev->rx_pkt_burst)(dev->data->rx_queues[queue_id],
          rx_pkts, nb_pkts);
 
 
  if (__builtin_expect(!!(dev->post_rx_burst_cbs[queue_id] != 
-# 3883 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 3883 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
     ((void *)0)
-# 3883 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3883 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
     ), 0)) {
   struct rte_eth_rxtx_callback *cb =
     dev->post_rx_burst_cbs[queue_id];
@@ -47912,68 +50274,68 @@ rte_eth_rx_burst(uint16_t port_id, uint16_t queue_id,
       nb_pkts, cb->param);
    cb = cb->next;
   } while (cb != 
-# 3891 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 3891 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
                 ((void *)0)
-# 3891 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3891 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
                     );
  }
 
 
  return nb_rx;
 }
-# 3910 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3910 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 static inline int
 rte_eth_rx_queue_count(uint16_t port_id, uint16_t queue_id)
 {
  struct rte_eth_dev *dev;
 
  do { if (!rte_eth_dev_is_valid_port(port_id)) { rte_log(4U, rte_eth_dev_logtype, "" "Invalid port_id=%u\n", port_id); return -
-# 3915 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 3915 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
 22
-# 3915 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3915 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 ; } } while (0);
  dev = &rte_eth_devices[port_id];
  do { if ((*dev->dev_ops->rx_queue_count) == 
-# 3917 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 3917 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
 ((void *)0)
-# 3917 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3917 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 ) { (void)0; return -
-# 3917 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 3917 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
 95
-# 3917 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3917 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 ; } } while (0);
  if (queue_id >= dev->data->nb_rx_queues)
   return -
-# 3919 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 3919 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
          22
-# 3919 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3919 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
                ;
 
  return (int)(*dev->dev_ops->rx_queue_count)(dev, queue_id);
 }
-# 3939 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3939 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 static inline int
 rte_eth_rx_descriptor_done(uint16_t port_id, uint16_t queue_id, uint16_t offset)
 {
  struct rte_eth_dev *dev = &rte_eth_devices[port_id];
  do { if (!rte_eth_dev_is_valid_port(port_id)) { rte_log(4U, rte_eth_dev_logtype, "" "Invalid port_id=%u\n", port_id); return -
-# 3943 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 3943 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
 19
-# 3943 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3943 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 ; } } while (0);
  do { if ((*dev->dev_ops->rx_descriptor_done) == 
-# 3944 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 3944 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
 ((void *)0)
-# 3944 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3944 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 ) { (void)0; return -
-# 3944 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 3944 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
 95
-# 3944 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3944 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 ; } } while (0);
  return (*dev->dev_ops->rx_descriptor_done)(
   dev->data->rx_queues[queue_id], offset);
 }
-# 3986 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 3986 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 static inline int
 rte_eth_rx_descriptor_status(uint16_t port_id, uint16_t queue_id,
  uint16_t offset)
@@ -47990,19 +50352,19 @@ rte_eth_rx_descriptor_status(uint16_t port_id, uint16_t queue_id,
 
 
  do { if ((*dev->dev_ops->rx_descriptor_status) == 
-# 4001 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 4001 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
 ((void *)0)
-# 4001 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4001 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 ) { (void)0; return -
-# 4001 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 4001 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
 95
-# 4001 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4001 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 ; } } while (0);
  rxq = dev->data->rx_queues[queue_id];
 
  return (*dev->dev_ops->rx_descriptor_status)(rxq, offset);
 }
-# 4044 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4044 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 static inline int rte_eth_tx_descriptor_status(uint16_t port_id,
  uint16_t queue_id, uint16_t offset)
 {
@@ -48018,62 +50380,62 @@ static inline int rte_eth_tx_descriptor_status(uint16_t port_id,
 
 
  do { if ((*dev->dev_ops->tx_descriptor_status) == 
-# 4058 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 4058 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
 ((void *)0)
-# 4058 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4058 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 ) { (void)0; return -
-# 4058 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 4058 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
 95
-# 4058 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4058 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 ; } } while (0);
  txq = dev->data->tx_queues[queue_id];
 
  return (*dev->dev_ops->tx_descriptor_status)(txq, offset);
 }
-# 4130 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4130 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 static inline uint16_t
 rte_eth_tx_burst(uint16_t port_id, uint16_t queue_id,
    struct rte_mbuf **tx_pkts, uint16_t nb_pkts)
 {
  struct rte_eth_dev *dev = &rte_eth_devices[port_id];
-# 4147 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4147 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
  struct rte_eth_rxtx_callback *cb = dev->pre_tx_burst_cbs[queue_id];
 
  if (__builtin_expect(!!(cb != 
-# 4149 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 4149 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
     ((void *)0)
-# 4149 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4149 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
     ), 0)) {
   do {
    nb_pkts = cb->fn.tx(port_id, queue_id, tx_pkts, nb_pkts,
      cb->param);
    cb = cb->next;
   } while (cb != 
-# 4154 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
+# 4154 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h" 3 4
                 ((void *)0)
-# 4154 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4154 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
                     );
  }
 
 
  return (*dev->tx_pkt_burst)(dev->data->tx_queues[queue_id], tx_pkts, nb_pkts);
 }
-# 4216 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4219 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 static inline uint16_t
 rte_eth_tx_prepare(uint16_t port_id, uint16_t queue_id,
   struct rte_mbuf **tx_pkts, uint16_t nb_pkts)
 {
  struct rte_eth_dev *dev;
-# 4230 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4233 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
  dev = &rte_eth_devices[port_id];
-# 4240 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4243 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
  if (!dev->tx_pkt_prepare)
   return nb_pkts;
 
  return (*dev->tx_pkt_prepare)(dev->data->tx_queues[queue_id],
    tx_pkts, nb_pkts);
 }
-# 4290 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4293 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 static inline uint16_t
 rte_eth_tx_buffer_flush(uint16_t port_id, uint16_t queue_id,
   struct rte_eth_dev_tx_buffer *buffer)
@@ -48096,7 +50458,7 @@ rte_eth_tx_buffer_flush(uint16_t port_id, uint16_t queue_id,
 
  return sent;
 }
-# 4343 "/opt/project/dpdk/git/dpdk//x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
+# 4346 "/mnt/sda7/project/ppe/ppe/src/3rd/dpdk/src/x86_64-native-linuxapp-gcc/include/rte_ethdev.h"
 static inline __attribute__((always_inline)) uint16_t
 rte_eth_tx_buffer(uint16_t port_id, uint16_t queue_id,
   struct rte_eth_dev_tx_buffer *buffer, struct rte_mbuf *tx_pkt)
@@ -48107,10 +50469,4 @@ rte_eth_tx_buffer(uint16_t port_id, uint16_t queue_id,
 
  return rte_eth_tx_buffer_flush(port_id, queue_id, buffer);
 }
-# 2 "test.c" 2
-struct rte_eth_dev_info dev_info;
-int main(int argc, char **argv)
-{
- printf("%s\n", dev_info.name);
- return 0;
-}
+# 2 "test_struct.c" 2

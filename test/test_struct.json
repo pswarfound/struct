@@ -1,0 +1,12 @@
+{
+    "name":"test",
+    "headers": [
+        "rte_ethdev.h",
+        "rte_mempool.h"
+    ],
+    "structs": [
+        "struct rte_mempool",
+        "struct rte_eth_dev_portconf",
+        "struct rte_eth_dev_info"
+    ]
+}
