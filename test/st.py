@@ -152,25 +152,25 @@ def expand_start(st_name, out_list):
         out_list.append(mbr_info)
 
 def write_mbr(name, mbr_list, f, lv, parent):
-    w = "    ret = snprintf(p, left, "
-    w += "\"" + " "*4*(lv - 1) + name + ": \\n\");"
-    w += "p += ret;"
-    w += "left -= ret;\n"
-    f.write(w) 
+    if lv != 1:
+        w = "    ret = snprintf(p, left, "
+        w += "\"" + " "*4*(lv - 1) + name + ": \\n\");"
+        w += " CHECK(ret, p, left);\n"
+        f.write(w) 
     for mbr in mbr_list:
         if len(mbr['sub']) == 0:
             w = "    ret = snprintf(p, left, "
             w += "\"" + " "*4*lv + mbr['name'] + ": "
             if mbr['isp'] == True:
-                w += "%p"
+                w += "p=%p"
             elif mbr['isa'] == True:
                 pass
             elif mbr['type'] in l_types:
-                w += "%lx"
+                w += "0x%lx"
             elif mbr['type'] == "size_t":
                 w += "%z"
             elif mbr['type'] in basic_type:
-                w += "%x"
+                w += "0x%x"
             else:
                 pass
             w += "\\n\""
@@ -178,12 +178,16 @@ def write_mbr(name, mbr_list, f, lv, parent):
             w += mbr["name"]
             w += ");"
             #w += "\n"
-            w += "p += ret;"
-            w += "left -= ret;\n"
+            w += " CHECK(ret, p, left);\n"
             f.write(w)
         else:
             np = parent + mbr['name']+"."
             write_mbr(mbr['name'], mbr['sub'], f, lv + 1, np)
+CHECK_STR = "#define CHECK(ret, p, left) \\\n\
+    if (ret >= left) { \\\n\
+        return;\\\n\
+    }\\\n\
+    p += ret;left -= ret;\n"
 
 def gen_c_file(root, js, cfile_path):
     f = open(cfile_path, "w")
@@ -193,6 +197,8 @@ def gen_c_file(root, js, cfile_path):
         w += "#include \"" + header + "\"\n"
     w += "\n"
     f.write(w)
+    f.write(CHECK_STR)
+    f.write("\n")
     for st_root in root:
         type = st_root["type"]
         w = "void struct_" + type.replace(" ", "_") +"_print(" + type + " *t, char *buf, int sz)\n"
@@ -207,17 +213,33 @@ def gen_c_file(root, js, cfile_path):
 
 if __name__ == "__main__":
     js_path = sys.argv[1]
-    sc_file = sys.argv[2]
-    cfile_path = sys.argv[3]
+    tmp_dir = sys.argv[2]
+    dst_dir = sys.argv[3]
+    name = sys.argv[4]
+    sc_file = os.path.join(tmp_dir, name + ".e")
+    cfile_path = os.path.join(dst_dir, name + ".c")
     js = None
 
     with open(js_path, "r") as f:
         js = json.load(f)
         f.close()
 
-    with open(sc_file, "r") as f:
+    f = None
+    try:
+        f = open(sc_file, "r")
+    except Exception as e:
+        print e
+        exit()
+    try:
         codes = f.readlines()
+    except Exception as e:
+        print e
+        exit()
+    try:        
         f.close()
+    except Exception as e:
+        print e
+        exit()
     tmp = copy.deepcopy(codes)
 
     for idx, code in enumerate(tmp):
